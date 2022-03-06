@@ -1,0 +1,509 @@
+/*************************************************
+ GLOBAL STYLES
+************************************************/
+
+$white: #fff;
+$black: #2e2e2e;
+$gray: #787878;
+$highlight: #ea8478;
+$green: #00CE7C;
+$darkGreen: #004D43;
+$lightBlue: #96DAEA;
+$blue: #2A7DE1;
+$darkBlue: #1B365D;
+$purple: #8D1B60;
+$red: #EF4047;
+$pink: #F6CDD7;
+$orange: #FFB259;
+$yellow: #FFDA00;
+$offWhite: #f9f9f9;
+$lightGray: #cccccc;
+$gray: #999999;
+$darkGray: #777777;
+$dark: #373A36;
+
+@mixin animate($target, $duration, $type, $delay) {
+	-webkit-transition: $target $duration $type $delay;
+	-moz-transition: $target $duration $type $delay;
+	-ms-transition: $target $duration $type $delay;
+	-o-transition: $target $duration $type $delay;
+	transition: $target $duration $type $delay;
+}
+
+.display {
+	display: block !important;
+}
+
+.fade-down {
+	position: relative;
+    opacity: 0;
+	top: -5em;
+    -webkit-transition: all 650ms linear;
+    -o-transition: all 650ms linear;
+    transition: all 650ms linear;
+}
+
+.fade-down.show {
+    top: 0;
+    opacity: 1;
+}
+
+.fade-up {
+    position: relative;
+    opacity: 0;
+	bottom: -5em;
+    -webkit-transition: all 650ms linear;
+    -o-transition: all 650ms linear;
+    transition: all 650ms linear;
+}
+
+.fade-up.show {
+    bottom: 0;
+    opacity: 1;
+}
+
+.fade-left {
+    position: relative;
+    right: -5em;
+    opacity: 0;
+    -webkit-transition: all 650ms linear;
+    -o-transition: all 650ms linear;
+    transition: all 650ms linear;
+}
+
+.fade-left.show {
+    right: 0;
+    opacity: 1;
+}
+
+.fade-right {
+    position: relative;
+    left: -5em;
+    opacity: 0;
+    -webkit-transition: all 650ms linear;
+    -o-transition: all 650ms linear;
+    transition: all 650ms linear;
+}
+
+.fade-right.show {
+    left: 0;
+    opacity: 1;
+}
+
+::selection {
+	background: $red;
+	color: $white;
+  }
+::-moz-selection {
+	background: $red;
+	color: $white;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	font-size: 62.5%;
+}
+
+body {
+	display: none;
+	width: 100%;
+	height: 100%;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1em;
+	color: $dark;
+	cursor: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/trilakeCursor.svg"), auto;
+
+	&.fixed {
+		overflow: hidden;
+	}
+
+}
+
+h1, .h1 {
+	font-family: $cwm;
+	font-size: 4.5rem;
+	line-height: 1.3em;
+	font-weight: 600;
+
+	@include laptop {
+		font-size: 4.2rem;
+	}
+
+	@include large-tablet {
+		font-size: 3.8rem;
+	}
+
+	@include tablet {
+		font-size: 3.5rem;
+	}
+
+	@include large-mobile {
+		font-size: 3.2rem;
+	}
+
+}
+
+h2, .h2 {
+	font-size: 4vw;
+	line-height: 1em;
+	font-weight: 600;
+	font-family: $chakra;
+
+	@include large-mobile {
+		font-size: 8.5vw;
+	}
+}
+
+h3, .h3 {
+	font-size: 3.5rem;
+	line-height: 1.3em;
+	font-weight: 600;
+
+	@include laptop {
+		font-size: 3.2rem;
+	}
+
+	@include large-tablet {
+		font-size: 2.8rem;
+	}
+
+	@include tablet {
+		font-size: 2.5rem;
+	}
+
+	@include large-mobile {
+		font-size: 2.6rem;
+	}
+
+}
+
+h4, .h4 {
+	font-size: 3rem;
+	line-height: 1.3em;
+	font-weight: 600;
+
+	@include laptop {
+		font-size: 2.8rem;
+	}
+
+	@include large-tablet {
+		font-size: 2.4rem;
+	}
+
+	@include tablet {
+		font-size: 2rem;
+	}
+
+	@include large-mobile {
+		font-size: 1.8rem;
+	}
+
+}
+
+h5, .h5 {
+	font-size: 2.5rem;
+	line-height: 1.3em;
+	font-weight: 600;
+
+	@include laptop {
+		font-size: 2.2rem;
+	}
+
+	@include large-tablet {
+		font-size: 2rem;
+	}
+
+	@include tablet {
+		font-size: 1.8rem;
+	}
+
+	@include large-mobile {
+		font-size: 1.6rem;
+	}
+
+}
+
+h6, .h6 {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .05em;
+	font-size: 1.4rem;
+	line-height: 1;
+
+	@include tablet {
+		font-size: 1.3rem;
+	}
+
+	@include mobile {
+		font-size: 1.2rem;
+	}
+
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 1.6em;
+	color: $darkGray;
+	font-family: $ptsans;
+
+	@include tablet {
+		font-size: 1.6rem;
+	}
+
+}
+
+ul {
+	font-size: 1.8rem;
+	line-height: 1.6em;
+	color: $darkGray;
+
+	@include tablet {
+		font-size: 1.6rem;
+	}
+
+	li {
+		padding-left: 20px;
+		position: relative;
+		margin: 5px 0;
+
+		&:before {
+			content: '\f0da';
+			font-family: "Font Awesome 5 Pro";
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-weight: 600;
+			font-size: 2rem;
+			color: $purple;
+		}
+
+	}
+
+}
+
+strong {
+	font-weight: 600;
+}
+
+em, i {
+	font-style: italic;
+}
+
+a, a:hover, a:visited, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+input, textarea, select {
+	-webkit-appearance: none !important;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: checkbox !important;
+}
+
+input[type="radio"] {
+	-webkit-appearance: radio !important;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.wrapper1200 {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.vert-center {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.clear {
+	clear: both;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0 !important;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+// COLORS
+
+.white {
+	color: white !important;
+}
+
+.ltBlue {
+	color: $lightBlue !important;
+}
+
+.blue {
+	color: $blue !important;
+}
+
+.dkBlue {
+	color: $darkBlue !important;
+}
+
+.red {
+	color: $red !important;
+}
+
+.gray {
+	color: $gray !important;
+}
+
+.dark {
+	color: $dark !important;
+}
+
+//BG COLORS 
+
+.bg-tlBlue {
+	background-color: $lightBlue !important;
+}
+
+.bg-offWhite {
+	background-color: $offWhite !important;
+}
+
+.bg-dkGreen {
+	background-color: $darkGreen !important;
+}
+
+// COLUMNS
+.col2 {
+	float: left;
+	width: 50%;
+}
+
+.col3 {
+	float: left;
+	width: 33.3333%;
+}
+
+.col4 {
+	float: left;
+	width: 25%;
+}
+
+.col5 {
+	float: left;
+	width: 20%;
+}
+
+// BUTTONS
+
+.button {
+	position: relative;
+	width: 30%;
+	max-width: 150px;
+
+	a {
+		.btn {
+			border-top: 3px solid $dark;
+			border-bottom: 3px solid $dark;
+			margin: 30px 0;
+			position: relative;
+
+			p {
+				padding: 10px;
+				color: $dark;
+				text-transform: uppercase;
+				font-size: 2vw;
+				font-weight: 900;
+				font-family: $chakra;
+				display: inline-block;
+
+				@include large-mobile {
+					font-size: 4vw;
+				}
+			}
+
+			p:hover {
+				filter: none;
+			}
+
+			.btnImg {
+				content: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
+				width: 2vw;
+				height: 2vw;
+				display: inline-block;
+				top: 30%;
+				position: absolute;
+				margin-left: 0.5em;
+
+				@include large-mobile {
+					height: 4vw;
+				}
+			}
+		}
+
+		.btn:hover {
+			border-color: $red;
+			filter: blur(1px);
+			color: $white;
+			cursor: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/trilakeCursor.svg"), auto;
+		}
+	}
+}
+
+.textBtn, a.textBtn {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	color: $blue;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: .02em;
+	font-size: 1.7rem;
+
+	&:after {
+		content: '\f178';
+		font-family: "Font Awesome 5 Pro";
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 6px;
+		font-weight: 500;
+		@include animate(all, 200ms, linear, 0ms);
+	}
+
+	&:hover {
+		&:after {
+			margin-left: 8px;
+		}
+
+	}
+
+}
+
+// FOOTER
+footer {
+
+	
+}
