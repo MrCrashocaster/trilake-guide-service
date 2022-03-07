@@ -1023,6 +1023,12 @@ hr.wp-block-separator {
   background-color: #f9f9f9;
 }
 
+@media (max-width: 650px) {
+  #packageSection {
+    padding: 3em 0;
+  }
+}
+
 #packageSection .wrapper1200 .packagesHeadline {
   max-width: 500px;
 }

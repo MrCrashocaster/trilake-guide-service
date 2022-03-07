@@ -98,6 +98,10 @@
     padding: 6em 0;
     background-color: $offWhite;
 
+    @include large-mobile {
+        padding: 3em 0;
+    }
+
     .wrapper1200 {
 
         .packagesHeadline {
