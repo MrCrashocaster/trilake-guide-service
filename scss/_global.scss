@@ -3,7 +3,7 @@
 ************************************************/
 
 $white: #fff;
-$black: #2e2e2e;
+$black: #000000;
 $gray: #787878;
 $highlight: #ea8478;
 $green: #00CE7C;
@@ -32,6 +32,14 @@ $dark: #373A36;
 
 .display {
 	display: block !important;
+}
+
+.background-transition {
+	transition: background-color 1s ease;
+}
+
+.background-transition-out {
+	transition: background-color 1s ease-out;
 }
 
 .fade-down {
@@ -107,6 +115,7 @@ html {
 }
 
 body {
+	background-color: $white;
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -124,26 +133,13 @@ body {
 
 h1, .h1 {
 	font-family: $cwm;
-	font-size: 4.5rem;
-	line-height: 1.3em;
+	font-size: 5.2vw;
+	line-height: 1em;
 	font-weight: 600;
 
-	@include laptop {
-		font-size: 4.2rem;
-	}
-
-	@include large-tablet {
-		font-size: 3.8rem;
-	}
-
-	@include tablet {
-		font-size: 3.5rem;
-	}
-
 	@include large-mobile {
-		font-size: 3.2rem;
+		font-size: 11.5vw;
 	}
-
 }
 
 h2, .h2 {
@@ -151,6 +147,7 @@ h2, .h2 {
 	line-height: 1em;
 	font-weight: 600;
 	font-family: $chakra;
+	color: $dark;
 
 	@include large-mobile {
 		font-size: 8.5vw;
@@ -394,6 +391,18 @@ input[type="radio"] {
 
 .bg-dkGreen {
 	background-color: $darkGreen !important;
+}
+
+.bg-dark {
+	background-color: $dark !important;
+}
+
+.bg-white {
+	background-color: $white !important;
+}
+
+.bg-black {
+	background-color: $black !important;
 }
 
 // COLUMNS
