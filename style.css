@@ -496,15 +496,30 @@ input[type="radio"] {
 
 .button {
   position: relative;
-  width: 30%;
-  max-width: 150px;
 }
 
 .button a .btn {
+  margin: 30px 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button a .btn .btnContent {
   border-top: 3px solid #373A36;
   border-bottom: 3px solid #373A36;
   margin: 30px 0;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .button a .btn p {
@@ -532,10 +547,6 @@ input[type="radio"] {
   content: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg");
   width: 2vw;
   height: 2vw;
-  display: inline-block;
-  top: 30%;
-  position: absolute;
-  margin-left: 0.5em;
 }
 
 @media (max-width: 650px) {

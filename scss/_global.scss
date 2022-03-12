@@ -430,15 +430,22 @@ input[type="radio"] {
 
 .button {
 	position: relative;
-	width: 30%;
-	max-width: 150px;
 
 	a {
 		.btn {
-			border-top: 3px solid $dark;
-			border-bottom: 3px solid $dark;
 			margin: 30px 0;
 			position: relative;
+			align-items: center;
+			display: flex;
+
+			.btnContent {
+				border-top: 3px solid #373A36;
+				border-bottom: 3px solid #373A36;
+				margin: 30px 0;
+				position: relative;
+				align-items: center;
+				display: flex;
+			}
 
 			p {
 				padding: 10px;
@@ -462,10 +469,6 @@ input[type="radio"] {
 				content: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
 				width: 2vw;
 				height: 2vw;
-				display: inline-block;
-				top: 30%;
-				position: absolute;
-				margin-left: 0.5em;
 
 				@include large-mobile {
 					height: 4vw;
