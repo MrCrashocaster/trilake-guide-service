@@ -29,7 +29,7 @@ get_header(); ?>
 
             <div class="heroHeadline animate__animated animate__fadeIn">
 
-                <div class="h1">Please Contact <span class="red">Us</span></div>
+                <div class="h1">Contact <span class="red">Us</span></div>
 
             </div>
 
