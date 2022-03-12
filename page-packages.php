@@ -51,17 +51,6 @@ get_header(); ?>
                     nascetur ut sociis a sagittis a suspendisse parturient duis nullam a velit viverra. 
                     Sodales etiam tempus tempor a vestibulum nascetur ullamcorper sociosqu condimentum 
                     aliquam facilisi mi gravida est et habitant.</p>
-
-                    <div class="button fade-right">
-                        <a href="/about">
-                            <div class="btn">
-                                <div class="btnContent">
-                                    <p>About</p>
-                                    <div class="btnImg"></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
             </div>
             <div class="unparalledVideo fade-left">
                 <video autoplay="autoplay" playsinline loop="loop" muted="muted">
@@ -80,20 +69,21 @@ get_header(); ?>
                 fringilla torquent ridiculus rhoncus nibh tellus condimentum.
             </p>
         </div>
-        <div class="packages">
+        <div class="packages changeBackgroundToDark">
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> For the beginner</div>
+                    <div class="h2 dark subtext"> One Person</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                        <a href="/package-1">
                             <div class="btn">
-                                <div class="btnContent">
-                                    <p class="dark">Learn More</p>
-                                    <div class="btnImg"></div>
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
                                 </div>
                             </div>
                         </a>
@@ -103,16 +93,17 @@ get_header(); ?>
             <div class="singlePackage fade-left">
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 2<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> For the intermediate</div>
+                    <div class="h2 dark subtext"> Two People</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                        <a href="/package-2">
                             <div class="btn">
-                                <div class="btnContent">
-                                    <p class="dark">Learn More</p>
-                                    <div class="btnImg"></div>
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
                                 </div>
                             </div>
                         </a>
@@ -122,16 +113,17 @@ get_header(); ?>
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 3<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> For the enthusiast</div>
+                    <div class="h2 dark subtext"> Three People</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                        <a href="/package-3">
                             <div class="btn">
-                                <div class="btnContent">
-                                    <p class="dark">Learn More</p>
-                                    <div class="btnImg"></div>
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
                                 </div>
                             </div>
                         </a>
@@ -141,16 +133,71 @@ get_header(); ?>
             <div class="singlePackage fade-left">
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 4<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> For the expert</div>
+                    <div class="h2 dark subtext"> Four People</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                        <a href="/package-4">
                             <div class="btn">
-                                <div class="btnContent">
-                                    <p class="dark">Learn More</p>
-                                    <div class="btnImg"></div>
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="servicesSection" class="">
+    <div class="wrapper1200">
+        <div class="packagesHeadline">
+            <div class="h1 red fade-right">Services</div>
+            <div class="h2 fade-right">Grab your adventure</div>
+            <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
+                fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+            </p>
+        </div>
+        <div class="packages">
+            <div class="singlePackage fade-right">
+                <div class="singlePackageContent">
+                    <div class="h2"><span class="underlined-word">Service 1<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> One Person</div>
+                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
+                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    </p>
+                    <div class="button">
+                            <div class="btn">
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="singlePackage fade-left">
+                <div class="singlePackageContent">
+                    <div class="h2"><span class="underlined-word">Service 2<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> Two People</div>
+                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
+                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    </p>
+                    <div class="button">
+                            <div class="btn">
+                                <div class="btnContent btnBorderDark">
+                                    <a href="/booking">
+                                        <p class="dark">Book Now</p>
+                                        <div class="btnImg"></div>
+                                    </a>
                                 </div>
                             </div>
                         </a>
@@ -166,19 +213,19 @@ get_header(); ?>
         <div class="card">
             <div class="cardContent">
                 <div class="h2"><span class="underlined-word">Contact<div class="underline"></span></div></div>
-                <div class="h2"> Us</div>
+                <div class="h2 dark"> Us</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                        <a href="/contact">
-                            <div class="btn">
-                                <div class="btnContent">
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
                                     <p class="dark">Contact</p>
                                     <div class="btnImg"></div>
-                                </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
