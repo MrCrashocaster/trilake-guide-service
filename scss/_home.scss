@@ -54,6 +54,7 @@
     height: 100vh;
     margin: 0 auto;
     justify-content: center;
+    z-index: 1;
 
     @include large-mobile {
         flex-wrap: wrap;
