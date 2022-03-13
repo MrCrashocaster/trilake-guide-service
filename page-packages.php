@@ -49,14 +49,23 @@ get_header(); ?>
     <div class="wrapper1200">
         <div class="unparalledServiceContent">
             <div class="unparalledCopy">
-                <div class="h2 fade-right"><span class="underlined-word">Unparalled <div class="underline"></span></div></div>
+                <div class="h2 fade-right"><span class="underlined-word">Unparalleled <div class="underline"></span></div></div>
                 <div class="h2 fade-right"> Service</div>
-                <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                    fringilla torquent ridiculus rhoncus nibh tellus condimentum. 
-                    Conubia dictumst suscipit pharetra habitant sagittis netus pulvinar 
-                    nascetur ut sociis a sagittis a suspendisse parturient duis nullam a velit viverra. 
-                    Sodales etiam tempus tempor a vestibulum nascetur ullamcorper sociosqu condimentum 
-                    aliquam facilisi mi gravida est et habitant.</p>
+                <p class="fade-right">We take pride in providing our customers with an unforgettable fishing experience. Our local team 
+                    of skilled All-Pro Angler guides have expert knowledge and are passionate about fishing the lakes of North MS. View 
+                    our custom inclusive packages and BOOK NOW to schedule your trip to fish with us!
+                </p>
+                <div class="button">
+                            <div class="btn">
+                                <div class="btnContent btnBorderDark">
+                                    <a href="#packageSection">
+                                        <p class="white">View Packages</p>
+                                        <div class="btnImg"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
             </div>
             <div class="unparalledVideo fade-left">
                 <video autoplay="autoplay" playsinline loop="loop" muted="muted">

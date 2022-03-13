@@ -88,4 +88,11 @@ $(document).ready(function() {
         }
         
     });
+
+    $('.unparalledCopy .btn a').click(function(){
+        var clicked = $(this);
+        var clickedClass = $('#packageSection');
+
+        $('html, body').stop().animate({'scrollTop': clickedClass.offset().top - 0});
+    });
 });
