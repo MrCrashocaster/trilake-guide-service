@@ -432,6 +432,19 @@ input[type="radio"] {
 
 // BUTTONS
 
+.backButton {
+	position: absolute;
+	left: 3%;
+	top: 3%;
+	color: $red;
+	font-size: 2.5vw;
+	z-index: 1;
+
+	@include maximum {
+		font-size: 5rem;
+	}
+}
+
 .button {
 	position: relative;
 
