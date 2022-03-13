@@ -1350,42 +1350,30 @@ hr.wp-block-separator {
   }
 }
 
-#contactHero .heroOverlay {
-  background-color: #000000;
-  mix-blend-mode: soft-light;
-  z-index: 0;
-  position: absolute;
-  background-color: #000000;
-  height: 100vh;
-  width: 100%;
-  opacity: .6;
-  overflow: hidden;
-}
-
-#contactHero .heroContent {
+#contact .heroContent {
   width: 100%;
 }
 
-#contactHero .heroContent .wrapper1200 {
+#contact .heroContent .wrapper1200 {
   z-index: 1;
 }
 
-#contactHero .heroContent .wrapper1200 .heroHeadline {
+#contact .heroContent .wrapper1200 .heroHeadline {
   text-align: left;
 }
 
-#contactHero .heroContent .wrapper1200 .heroHeadline .h1 {
+#contact .heroContent .wrapper1200 .heroHeadline .h1 {
   font-size: 7.5vw;
   line-height: 1;
 }
 
 @media (max-width: 650px) {
-  #contactHero .heroContent .wrapper1200 .heroHeadline .h1 {
+  #contact .heroContent .wrapper1200 .heroHeadline .h1 {
     font-size: 11.5vw;
   }
 }
 
-#contactHero .heroContent .wrapper1200 .heroHeadline .h2 {
+#contact .heroContent .wrapper1200 .heroHeadline .h2 {
   font-family: "A2 CWM WEB 3", sans-serif;
   position: relative;
   width: 100%;
@@ -1393,13 +1381,13 @@ hr.wp-block-separator {
   font-size: 7.5vw;
 }
 
-#contactHero .heroContent .wrapper1200 .heroHeadline .h2 .underlined-word {
+#contact .heroContent .wrapper1200 .heroHeadline .h2 .underlined-word {
   position: relative;
   padding: 5px 7px 5px 7px;
   color: #fff;
 }
 
-#contactHero .heroContent .wrapper1200 .heroHeadline .h2 .underlined-word .underline {
+#contact .heroContent .wrapper1200 .heroHeadline .h2 .underlined-word .underline {
   position: absolute;
   bottom: 14%;
   z-index: -1;
