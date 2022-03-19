@@ -10,7 +10,8 @@ $landscape-mobile: 820px;
 $large-tablet-width: 1024px;
 $wrapper-break-width: 1360px;
 $laptop-width: 1400px;
-$desktop-width: 1920px;
+$desktop-width: 1700px;
+$maximum-width: 1920px;
 
 
 @mixin small-mobile {
@@ -62,14 +63,14 @@ $desktop-width: 1920px;
 }
 
 @mixin desktop {
-	@media (max-width: #{$desktop-width}) {
+	@media (min-width: #{$desktop-width}) {
 		@content;
 	}
 }
 
 
 @mixin maximum {
-	@media (min-width: #{$desktop-width}) {
+	@media (min-width: #{$maximum-width}) {
 		@content;
 	}
 }

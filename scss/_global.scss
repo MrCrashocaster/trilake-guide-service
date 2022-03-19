@@ -149,6 +149,10 @@ h2, .h2 {
 	font-family: $chakra;
 	color: $dark;
 
+	@include desktop {
+		font-size: 6.8rem;
+	}
+
 	@include large-mobile {
 		font-size: 8.5vw;
 	}

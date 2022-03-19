@@ -198,6 +198,12 @@ h2, .h2 {
   color: #373A36;
 }
 
+@media (min-width: 1700px) {
+  h2, .h2 {
+    font-size: 6.8rem;
+  }
+}
+
 @media (max-width: 650px) {
   h2, .h2 {
     font-size: 8.5vw;
@@ -959,6 +965,44 @@ hr.wp-block-separator {
 /*************************************************
  GLOBAL SINGLE PAGE STYLES
 *************************************************/
+#about .heroHeadline {
+  text-align: left;
+}
+
+#about .heroHeadline .h1 {
+  font-size: 7.5vw;
+  line-height: 1;
+}
+
+@media (max-width: 650px) {
+  #about .heroHeadline .h1 {
+    font-size: 11.5vw;
+  }
+}
+
+#about .heroHeadline .h2 {
+  font-family: "A2 CWM WEB 3", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 7.5vw;
+}
+
+#about .heroHeadline .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#about .heroHeadline .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
+}
+
 #packagesHero .heroOverlay {
   background-color: #000000;
   mix-blend-mode: soft-light;
@@ -982,6 +1026,12 @@ hr.wp-block-separator {
 #packagesHero .heroContent .heroHeadline .h1 {
   font-size: 7.5vw;
   line-height: 1;
+}
+
+@media (min-width: 1700px) {
+  #packagesHero .heroContent .heroHeadline .h1 {
+    font-size: 12rem;
+  }
 }
 
 @media (max-width: 650px) {
