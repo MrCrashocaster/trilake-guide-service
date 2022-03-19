@@ -1088,6 +1088,16 @@ hr.wp-block-separator {
   z-index: 1;
 }
 
+#packagesHero .heroContent .heroHeadline {
+  max-width: 66vw;
+}
+
+@media (max-width: 650px) {
+  #packagesHero .heroContent .heroHeadline {
+    max-width: none;
+  }
+}
+
 #packagesHero .heroContent .heroHeadline .h1 {
   font-size: 7.5vw;
   line-height: 1;
@@ -1228,6 +1238,12 @@ hr.wp-block-separator {
   background-color: #fff;
 }
 
+@media (max-width: 650px) {
+  #packageSection .wrapper1200 .packages .singlePackage {
+    margin-right: 0;
+  }
+}
+
 #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent {
   padding: 2em;
 }
@@ -1320,6 +1336,12 @@ hr.wp-block-separator {
   margin-right: 30px;
   margin-top: 30px;
   background-color: #fff;
+}
+
+@media (max-width: 650px) {
+  #servicesSection .wrapper1200 .packages .singlePackage {
+    margin-right: 0;
+  }
 }
 
 #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent {
