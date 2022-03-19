@@ -549,6 +549,16 @@ input[type="radio"] {
 
 // FOOTER
 footer {
+	.footer {
+		background-color: $dark;
+		width: 100%;
+		height: 100px;
 
-	
+		.footerWrapper {
+
+			.footerContent {
+
+			}
+		}
+	}
 }
