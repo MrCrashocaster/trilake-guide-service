@@ -29,7 +29,7 @@ get_header(); ?>
                         <div class="heroHeadline">
 
                             <div class="h1 red">TriLake</div>
-                            <div class="h2 white">Fishing at its best</div>
+                            <div class="h2 white">Guide Service</div>
 
                         </div>
 
