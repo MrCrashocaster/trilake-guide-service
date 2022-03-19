@@ -2,7 +2,7 @@
 
 <footer>
 
-	<div class="footer">
+	<!-- <div class="footer">
 		<div class="footerWrapper">
 			<div class="footerContentLeft">
 				<p>TriLake Guide Service</p>
@@ -13,7 +13,7 @@
 				<a class="white" href="tel:">662.813.5959</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 </footer>
 

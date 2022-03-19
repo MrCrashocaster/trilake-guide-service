@@ -664,6 +664,10 @@ footer .footer .footerWrapper .footerContentRight p {
 /*************************************************
  HEADER
 *************************************************/
+header {
+  overflow: hidden;
+}
+
 /*************************************************
  HOME PAGE
 *************************************************/
@@ -1058,6 +1062,10 @@ hr.wp-block-separator {
   width: 33.3%;
   -webkit-transition: .8s opacity;
   transition: .8s opacity;
+}
+
+#packagesHero {
+  overflow: hidden;
 }
 
 #packagesHero .heroOverlay {
@@ -1457,6 +1465,10 @@ hr.wp-block-separator {
   }
 }
 
+#contact {
+  overflow: hidden;
+}
+
 #contact .heroContent {
   width: 100%;
 }
@@ -1501,5 +1513,9 @@ hr.wp-block-separator {
   width: 100%;
   height: 85%;
   background-color: #EF4047;
+}
+
+#booking {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

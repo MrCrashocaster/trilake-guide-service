@@ -41,7 +41,7 @@ get_header(); ?>
 
 <div id="bookingApplication">
     <div class="wrapper1200">
-        <?php echo do_shortcode("[booking_package id=1]"); ?>
+        <!-- Echo Shortcode -->
     </div>
 </div>
 
