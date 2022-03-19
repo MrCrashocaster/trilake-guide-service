@@ -47,21 +47,21 @@ get_header(); ?>
 
     <div id="masonry">
 
-        <img src="https://www.okgreat.be/upload/A01.jpg">
+            <img src="https://www.okgreat.be/upload/A01.jpg">
 
-        <img src="https://www.okgreat.be/upload/A03.jpg">
+            <img src="https://www.okgreat.be/upload/A03.jpg">
 
-        <img src="https://www.okgreat.be/upload/A04.jpg">
+            <img src="https://www.okgreat.be/upload/A04.jpg">
 
-        <img src="https://www.okgreat.be/upload/A05.jpg">
-    
-        <img src="https://www.okgreat.be/upload/A06.jpg">
-    
-        <img src="https://www.okgreat.be/upload/A02.jpg">
+            <img src="https://www.okgreat.be/upload/A05.jpg">
+        
+            <img src="https://www.okgreat.be/upload/A06.jpg">
+        
+            <img src="https://www.okgreat.be/upload/A02.jpg">
 
-        <img src="https://www.okgreat.be/upload/A07.jpg">
+            <img src="https://www.okgreat.be/upload/A07.jpg">
 
-        <img src="https://www.okgreat.be/upload/A08.jpg">
+            <img src="https://www.okgreat.be/upload/A08.jpg">
 
     </div>
 

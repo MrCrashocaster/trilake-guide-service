@@ -68,7 +68,7 @@ $(document).ready(function() {
         //     $('.btnContent').addClass('btnBorderDark');
         // }
         
-        if ($(window).width() >= 768) {
+       
             $('.fade-up, .fade-down, .fade-right, .fade-left').each(function() {
                 var crrnt = $(this);
                 if (crrnt.visible( true )) {
@@ -78,14 +78,11 @@ $(document).ready(function() {
                     crrnt.removeClass('show');
                 }
             });  
-        }
+        
 
-        if ($(window).width() <= 768) {
-            $('.fade-up, .fade-down, .fade-right, .fade-left').each(function() {
-                var crrnt = $(this); 
-                crrnt.addClass('show');
-            });  
-        }
+       
+             
+        
         
     });
 
