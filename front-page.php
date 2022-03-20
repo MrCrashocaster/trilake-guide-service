@@ -14,7 +14,7 @@ get_header(); ?>
             <?php if( have_rows('hero') ): ?>
                 <?php while( have_rows('hero') ): the_row(); ?>
 
-                    <video id="homeVideoBG" autoplay="autoplay" playsinline loop="loop" muted="muted">
+                    <video preload autoplay muted loop id="homeVideoBG" autoplay="autoplay" playsinline loop="loop" muted="muted">
 
                         <source src="<?php the_sub_field('video_background')['url'] ?>" type="video/mp4">
                         
