@@ -78,9 +78,11 @@ get_header(); ?>
     <div class="wrapper1200">
         <div class="packagesHeadline">
             <div class="h1 red fade-right">Packages</div>
-            <div class="h2 fade-right">Grab your adventure</div>
-            <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+            <div class="h2 fade-right">Chase your adventure</div>
+            <p class="fade-right">View and choose a package and book today! Our 8 hour guided fishing trips have a 1-4 person limit.
+                Our boats are stocked with the newest equipment and technology, and we provide all equipment, tackle, and gear! The fish 
+                you catch will be cleaned and vacuum sealed for you to take home! All we ask is that you wear appropriate clothing for weather conditions, 
+                and bring a snack to eat!
             </p>
         </div>
         <div class="packages changeBackgroundToDark">
@@ -88,8 +90,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> One Person</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
                             <div class="btn">
@@ -108,8 +109,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 2<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Two People</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
                             <div class="btn">
@@ -128,8 +128,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 3<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Three People</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
                             <div class="btn">
@@ -148,8 +147,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 4<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Four People</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
                             <div class="btn">
@@ -172,7 +170,7 @@ get_header(); ?>
     <div class="wrapper1200">
         <div class="packagesHeadline">
             <div class="h1 red fade-right">Services</div>
-            <div class="h2 fade-right">Grab your adventure</div>
+            <div class="h2 fade-right">Upgrade your setup</div>
             <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                 fringilla torquent ridiculus rhoncus nibh tellus condimentum.
             </p>
