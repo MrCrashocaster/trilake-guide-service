@@ -1095,7 +1095,7 @@ hr.wp-block-separator {
   #about #unparalledService .unparalledServiceContent {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 4em 0;
+    margin: 0;
   }
 }
 
@@ -1184,6 +1184,108 @@ hr.wp-block-separator {
 
 #about #unparalledService .unparalledServiceContent .unparalledVideo video {
   width: 100%;
+}
+
+#about #packageSectionAbout {
+  position: relative;
+  padding: 6em 0;
+}
+
+@media (max-width: 650px) {
+  #about #packageSectionAbout {
+    padding: 3em 0;
+  }
+}
+
+#about #packageSectionAbout .wrapper1200 .packagesHeadline {
+  max-width: 500px;
+  padding: 4em 0;
+}
+
+#about #packageSectionAbout .wrapper1200 .packagesHeadline .h2 {
+  font-size: 2.5vw;
+}
+
+@media (max-width: 650px) {
+  #about #packageSectionAbout .wrapper1200 .packagesHeadline .h2 {
+    font-size: 5.5vw;
+  }
+}
+
+#about #packageSectionAbout .wrapper1200 .packages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage {
+  border: 2px solid #373A36;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+@media (max-width: 650px) {
+  #about #packageSectionAbout .wrapper1200 .packages .singlePackage {
+    margin-right: 0;
+  }
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent {
+  padding: 2em;
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
+  font-family: "A2 CWM WEB 3", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .btn p {
+  font-size: 1.3vw;
+}
+
+@media (max-width: 650px) {
+  #about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .btn p {
+    font-size: 3vw;
+  }
+}
+
+#about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
+  font-size: 2.2vw;
+}
+
+@media (max-width: 650px) {
+  #about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
+    font-size: 4.2vw;
+  }
 }
 
 #packagesHero {

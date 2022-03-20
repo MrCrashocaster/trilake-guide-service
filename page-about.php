@@ -53,6 +53,9 @@ get_header(); ?>
                     <div class="h2 fade-right"> Service</div>
                     <p class="fade-right">
                         Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
+                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
+                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
+                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
                     </p>
                 </div>
                 <div class="unparalledCopyRight">
@@ -61,18 +64,27 @@ get_header(); ?>
                     <img class="fade-left" src="https://trilakeguideservice.com/wp-content/uploads/2022/03/JoJo-100-e1646539030660.jpg" />
                 </div>
             </div> 
-            <div class="unparalledServiceContent">
-                <div class="unparalledCopyLeft">
-                    <img class="fade-right" src="https://trilakeguideservice.com/wp-content/uploads/2022/03/JoJo-100-e1646539030660.jpg" />
+        </div>
+    </div>
+    <div id="packageSectionAbout" class="changeBackgroundToDark">
+        <div class="wrapper1200">
+            <div class="packagesHeadline">
+                <div class="h1 red fade-right">Packages</div>
+                <div class="h2 fade-right">Grab your adventure</div>
+                <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
+                    fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                </p>
+                <div class="button">
+                    <div class="btn">
+                        <div class="btnContent btnBorderDark">
+                            <a href="/packages">
+                                <p class="white">View Packages</p>
+                                <div class="btnImg"></div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="unparalledCopyRight">
-                    <div class="h2 fade-left"><span class="underlined-word">Expertise <div class="underline"></span></div></div>
-                    <div class="h2 fade-left"> Service</div>
-                    <p class="fade-left">
-                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
-                    </p>               
-                </div>
-            </div> 
+            </div>
         </div>
     </div>
 </div>

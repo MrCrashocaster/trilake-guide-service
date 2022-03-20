@@ -56,16 +56,15 @@ get_header(); ?>
                     our custom inclusive packages and BOOK NOW to schedule your trip to fish with us!
                 </p>
                 <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="#packageSection">
-                                        <p class="white">View Packages</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="btn">
+                        <div class="btnContent btnBorderDark">
+                            <a href="#packageSection">
+                                <p class="white">View Packages</p>
+                                <div class="btnImg"></div>
+                            </a>
+                        </div>
                     </div>
+                </div>
             </div>
             <div class="unparalledVideo fade-left">
                 <video autoplay="autoplay" playsinline loop="loop" muted="muted">

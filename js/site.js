@@ -31,6 +31,7 @@ $(document).ready(function() {
             $('.btnContent').addClass('btnBorderWhite');
             $('#packageSection .btnContent').removeClass('btnBorderWhite');
             $('#unparalledService .btnContent').removeClass('btnBorderDark');
+            $('#packageSectionAbout .btnContent').removeClass('btnBorderDark');
         }
 
         else {
