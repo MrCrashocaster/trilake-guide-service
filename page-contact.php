@@ -18,30 +18,43 @@ get_header(); ?>
 
     <?php endif; ?>
 
-    <div id="packagesHero" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Young_Man_Crappie-min.jpg') center top no-repeat; background-size: cover; height: auto; width: 100%;">
+    <div id="packagesHero" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Young_Man_Crappie-min.jpg') center top no-repeat; background-size: cover; height: 100vh; width: 100%;">
 
-    <div class="heroOverlay"></div>
+        <div class="heroOverlay"></div>
 
-    <div class="backButton">
-        <a onclick="history.back()">
-            <i class="fas fa-long-arrow-alt-left"></i>
-        </a>
-    </div>
+        <div class="backButton">
+            <a onclick="history.back()">
+                <i class="fas fa-long-arrow-alt-left"></i>
+            </a>
+        </div>
 
-    <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
+        <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
-    <div class="heroContent">
+        <div class="heroContent">
 
-        <div class="wrapper1200">
+            <div class="wrapper1200">
 
-            <div class="heroHeadline animate__animated animate__fadeIn">
+                <div class="heroHeadline animate__animated animate__fadeIn">
 
-                <div class="h1">Contact <span class="red">Us.</span></div>
+                    <div class="h1">Contact <span class="red">Us.</span></div>
+
+                </div>
 
             </div>
 
         </div>
 
+    </div>
+
+    <div id="contactContent">
+        <div class="contactContainer">
+            <div class="contactForm">
+                <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true" tabindex="49" field_values="check=First Choice,Second Choice"]'); ?>
+            </div>
+            <div class="contactInformation">
+                <h1>hello</h1>
+            </div>
+        </div>
     </div>
 
 </div>

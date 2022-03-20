@@ -80,9 +80,9 @@ get_header(); ?>
             <div class="h1 red fade-right">Packages</div>
             <div class="h2 fade-right">Chase your adventure</div>
             <p class="fade-right">Our 8 hour guided fishing trips have a 1-4 person limit.
-                We stock our boats with the newest equipment and fish finding technology. All equipment, tackle, and gear are provided! The fish 
-                you catch will be cleaned and vacuum sealed for you to take home! All we ask is that you wear appropriate clothing for weather conditions, 
-                and bring a snack to eat!
+                We stock our boats with the newest equipment and fish finding technology. All equipment, tackle, and gear are provided. The fish 
+                you catch will be cleaned and vacuum sealed for you to take home. Wear appropriate clothing for weather conditions 
+                and bring a snack to eat.
             </p>
         </div>
         <div class="packages changeBackgroundToDark">
@@ -93,15 +93,14 @@ get_header(); ?>
                     <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Find your Fish</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -112,15 +111,14 @@ get_header(); ?>
                     <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Find your Fish</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,15 +129,14 @@ get_header(); ?>
                     <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Find your Fish</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,15 +147,14 @@ get_header(); ?>
                     <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Find your Fish</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,9 +167,8 @@ get_header(); ?>
         <div class="packagesHeadline">
             <div class="h1 red fade-right">Services</div>
             <div class="h2 fade-right">Upgrade your rig</div>
-            <p class="fade-right">Need your livescope or trolling motor installed? We can install your setup!
-                Need practice or help with your livescope? We also provide expert livescope training! 
-                
+            <p class="fade-right">Need your livescope or trolling motor installed? We can install your setup.
+                Need practice or help with your livescope? We also provide expert livescope training. 
             </p>
         </div>
         <div class="packages">
@@ -185,15 +180,14 @@ get_header(); ?>
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Get in Touch</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,15 +199,14 @@ get_header(); ?>
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
                     <div class="button">
-                            <div class="btn">
-                                <div class="btnContent btnBorderDark">
-                                    <a href="/booking">
-                                        <p class="dark">Book Now</p>
-                                        <div class="btnImg"></div>
-                                    </a>
-                                </div>
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Get in Touch</p>
+                                    <div class="btnImg"></div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,7 +228,7 @@ get_header(); ?>
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
                                 <a href="/contact">
-                                    <p class="dark">Contact</p>
+                                    <p class="dark">Get in Touch</p>
                                     <div class="btnImg"></div>
                                 </a>
                             </div>
