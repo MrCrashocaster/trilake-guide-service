@@ -69,7 +69,7 @@ get_header(); ?>
             </div>
             <div class="unparalledVideo fade-left">
                 <video autoplay="autoplay" playsinline loop="loop" muted="muted">
-                    <source src="https://trilakeguideservice.com/wp-content/uploads/2022/03/TriLake-B-Roll-Min.mp4" type="video/mp4">
+                    <source src="https://trilakeguideservice.com/wp-content/uploads/2022/03/TriLake_B-Roll_V2_Final.mp4" type="video/mp4">
                 </video>
             </div>
         </div> 
