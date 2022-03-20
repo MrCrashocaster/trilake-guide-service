@@ -273,14 +273,7 @@ ul {
 		margin: 5px 0;
 
 		&:before {
-			content: '\f0da';
-			font-family: "Font Awesome 5 Pro";
-			position: absolute;
-			top: 0;
-			left: 0;
-			font-weight: 600;
-			font-size: 2rem;
-			color: $purple;
+			content: '';
 		}
 
 	}
@@ -446,6 +439,10 @@ input[type="radio"] {
 
 	@include maximum {
 		font-size: 5rem;
+	}
+
+	@include large-mobile {
+		display: none;
 	}
 }
 

@@ -45,7 +45,7 @@ get_header(); ?>
 
     </div>
 
-    <div id="masonry">
+    <!-- <div id="masonry">
 
             <img src="https://www.okgreat.be/upload/A01.jpg">
 
@@ -63,7 +63,7 @@ get_header(); ?>
 
             <img src="https://www.okgreat.be/upload/A08.jpg">
 
-    </div>
+    </div> -->
 
 </div>
 
