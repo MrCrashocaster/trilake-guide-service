@@ -1812,8 +1812,23 @@ hr.wp-block-separator {
   padding: 5em 0;
 }
 
+@media (max-width: 650px) {
+  #contact #contactContent .contactContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 #contact #contactContent .contactContainer .contactForm {
   width: 50%;
+}
+
+@media (max-width: 650px) {
+  #contact #contactContent .contactContainer .contactForm {
+    width: 100%;
+  }
 }
 
 #contact #contactContent .contactContainer .contactInformation {
@@ -1824,6 +1839,12 @@ hr.wp-block-separator {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 650px) {
+  #contact #contactContent .contactContainer .contactInformation {
+    width: 100%;
+  }
 }
 
 #contact #contactContent .gform_wrapper {

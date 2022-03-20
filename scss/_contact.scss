@@ -56,13 +56,25 @@
             align-items: center;
             padding: 5em 0;
 
+            @include large-mobile {
+                flex-direction: column;
+            }
+
             .contactForm {
                 width: 50%;
+
+                @include large-mobile {
+                    width: 100%;
+                }
             }
             .contactInformation {
                 display: flex;
                 width: 50%;
                 justify-content: center;
+
+                @include large-mobile {
+                    width: 100%;
+                }
             }
         }
 
