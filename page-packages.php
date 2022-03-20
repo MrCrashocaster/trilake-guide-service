@@ -79,8 +79,8 @@ get_header(); ?>
         <div class="packagesHeadline">
             <div class="h1 red fade-right">Packages</div>
             <div class="h2 fade-right">Chase your adventure</div>
-            <p class="fade-right">View and choose a package and book today! Our 8 hour guided fishing trips have a 1-4 person limit.
-                Our boats are stocked with the newest equipment and technology, and we provide all equipment, tackle, and gear! The fish 
+            <p class="fade-right">Our 8 hour guided fishing trips have a 1-4 person limit.
+                We stock our boats with the newest equipment and fish finding technology. All equipment, tackle, and gear are provided! The fish 
                 you catch will be cleaned and vacuum sealed for you to take home! All we ask is that you wear appropriate clothing for weather conditions, 
                 and bring a snack to eat!
             </p>
@@ -170,16 +170,17 @@ get_header(); ?>
     <div class="wrapper1200">
         <div class="packagesHeadline">
             <div class="h1 red fade-right">Services</div>
-            <div class="h2 fade-right">Upgrade your setup</div>
-            <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+            <div class="h2 fade-right">Upgrade your rig</div>
+            <p class="fade-right">Need your livescope or trolling motor installed? We can install your setup!
+                Need practice or help with your livescope? We also provide expert livescope training! 
+                
             </p>
         </div>
         <div class="packages">
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Service 1<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> One Person</div>
+                    <div class="h2"><span class="underlined-word">Installation<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> Livescope/Trolling Motor</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
@@ -198,8 +199,8 @@ get_header(); ?>
             </div>
             <div class="singlePackage fade-left">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Service 2<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> Two People</div>
+                    <div class="h2"><span class="underlined-word">Training<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> Livescope Training</div>
                     <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
                         fringilla torquent ridiculus rhoncus nibh tellus condimentum.
                     </p>
