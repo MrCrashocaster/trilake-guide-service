@@ -77,7 +77,7 @@ get_header(); ?>
 <div id="packageSection" class="">
     <div class="wrapper1200">
         <div class="packagesHeadline">
-            <div class="h1 red fade-right">Packages</div>
+            <div class="h1 red fade-right">Boat Trips</div>
             <div class="h2 fade-right">Chase your adventure</div>
             <p class="fade-right">Our 8 hour guided fishing trips have a 1-4 person limit.
                 We stock our boats with the newest equipment and fish finding technology. All equipment, tackle, and gear are provided. The fish 
@@ -144,6 +144,29 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 4<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Four People</div>
+                    <p class="dark">8 Hour Guided Trip
+                    </p>
+                    <div class="button">
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="dark">Find your Fish</p>
+                                    <div class="btnImg"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="packagesHeadline wadingHeadline">
+            <div class="h1 red fade-right">Wading Trips</div>
+        </div>
+        <div class="packages wadingPackages">
+            <div class="singlePackage fade-right">
+                <div class="singlePackageContent">
+                    <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> One Person</div>
                     <p class="dark">8 Hour Guided Trip
                     </p>
                     <div class="button">
