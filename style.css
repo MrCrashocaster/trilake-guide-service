@@ -1194,6 +1194,7 @@ hr.wp-block-separator {
 #packageSection {
   position: relative;
   padding: 6em 0;
+  overflow: hidden;
 }
 
 @media (max-width: 650px) {

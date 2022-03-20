@@ -107,6 +107,7 @@
 #packageSection {
     position: relative;
     padding: 6em 0;
+    overflow: hidden;
     // background-color: $offWhite;
 
     @include large-mobile {
