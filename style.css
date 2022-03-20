@@ -1624,6 +1624,18 @@ hr.wp-block-separator {
   height: 100vh;
 }
 
+#ctaContact .heroOverlay {
+  background-color: #000000;
+  mix-blend-mode: soft-light;
+  z-index: 0;
+  position: absolute;
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  opacity: .6;
+  overflow: hidden;
+}
+
 @media (max-width: 650px) {
   #ctaContact .wrapper1200 {
     width: 100%;

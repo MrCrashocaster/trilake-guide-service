@@ -286,6 +286,18 @@
 #ctaContact {
     height: 100vh;
 
+    .heroOverlay {
+        background-color: $black;
+        mix-blend-mode: soft-light;
+        z-index: 0;
+        position: absolute;
+        background-color: $black;
+        height: 100vh;
+        width: 100%;
+        opacity: .6;
+        overflow: hidden;
+    }
+
     .wrapper1200 {
         @include large-mobile {
             width: 100%;

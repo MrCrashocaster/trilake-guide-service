@@ -221,7 +221,8 @@ get_header(); ?>
     </div>
 </div>
 
-<div id="ctaContact" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2021/12/pexels-cottonbro-4828253-min-e1646622391180.jpg') center top no-repeat; background-size: cover; width: 100%;">
+<div id="ctaContact" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Group_Photo_Final-min.jpg') center top no-repeat; background-size: cover; width: 100%;">
+    <div class="heroOverlay"></div>
     <div class="wrapper1200">
         <div class="card">
             <div class="cardContent">
