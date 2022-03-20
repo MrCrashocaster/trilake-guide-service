@@ -322,6 +322,14 @@ h6, .h6 {
   }
 }
 
+label {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+legend {
+  font-family: "Chakra Petch", sans-serif;
+}
+
 p {
   font-size: 1.8rem;
   line-height: 1.6em;
@@ -1816,6 +1824,22 @@ hr.wp-block-separator {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#contact #contactContent .gform_wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact #contactContent #gform_submit_button_1 {
+  font-family: 'Chakra Petch';
+  background-color: transparent;
+  border-bottom: 1px solid #373A36;
+  border-top: 1px solid #373A36;
+}
+
+#contact #contactContent .ginput_container.ginput_container_textarea {
+  border: 2px solid #373A36;
 }
 
 #booking {

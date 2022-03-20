@@ -65,5 +65,21 @@
                 justify-content: center;
             }
         }
+
+        .gform_wrapper {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #gform_submit_button_1 {
+            font-family: 'Chakra Petch';
+            background-color: transparent;
+            border-bottom: 1px solid $dark;
+            border-top: 1px solid $dark;
+        }
+
+        .ginput_container.ginput_container_textarea {
+            border: 2px solid $dark;
+        }
     }
 }

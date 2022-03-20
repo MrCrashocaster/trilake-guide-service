@@ -47,12 +47,17 @@ get_header(); ?>
     </div>
 
     <div id="contactContent">
-        <div class="contactContainer">
-            <div class="contactForm">
-                <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true" tabindex="49" field_values="check=First Choice,Second Choice"]'); ?>
-            </div>
-            <div class="contactInformation">
-                <h1>hello</h1>
+        <div class="wrapper1200">
+            <div class="contactContainer">
+                <div class="contactForm">
+                    <div class="formHeadline animate__animated animate__fadeIn">
+                        <div class="h1">Get in <span class="red">Touch</span>.</div>
+                    </div>
+                    <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true" tabindex="49" field_values="check=First Choice,Second Choice"]'); ?>
+                </div>
+                <div class="contactInformation">
+                    <h1>hello</h1>
+                </div>
             </div>
         </div>
     </div>

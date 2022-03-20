@@ -246,6 +246,14 @@ h6, .h6 {
 
 }
 
+label {
+	font-family: $chakra;
+}
+
+legend {
+	font-family: $chakra;
+}
+
 p {
 	font-size: 1.8rem;
 	line-height: 1.6em;
