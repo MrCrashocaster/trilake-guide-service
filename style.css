@@ -1072,6 +1072,120 @@ hr.wp-block-separator {
   transition: .8s opacity;
 }
 
+#about #unparalledService {
+  padding: 0;
+}
+
+#about #unparalledService .unparalledServiceContent {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 6em 0;
+}
+
+@media (max-width: 650px) {
+  #about #unparalledService .unparalledServiceContent {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 4em 0;
+  }
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyLeft {
+  width: 50%;
+  margin-right: 5%;
+}
+
+@media (max-width: 768px) {
+  #about #unparalledService .unparalledServiceContent .unparalledCopyLeft {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  #about #unparalledService .unparalledServiceContent .unparalledCopyLeft {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyLeft .h2 {
+  font-family: "A2 CWM WEB 3", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyLeft .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyLeft .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyRight {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  #about #unparalledService .unparalledServiceContent .unparalledCopyRight {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  #about #unparalledService .unparalledServiceContent .unparalledCopyRight {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyRight .h2 {
+  font-family: "A2 CWM WEB 3", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyRight .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledCopyRight .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledVideo {
+  width: 100%;
+}
+
+#about #unparalledService .unparalledServiceContent .unparalledVideo video {
+  width: 100%;
+}
+
 #packagesHero {
   overflow: hidden;
 }
