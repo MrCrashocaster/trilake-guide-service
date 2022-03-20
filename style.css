@@ -1202,7 +1202,6 @@ hr.wp-block-separator {
 #packageSection {
   position: relative;
   padding: 6em 0;
-  overflow: hidden;
 }
 
 @media (max-width: 650px) {
@@ -1235,6 +1234,7 @@ hr.wp-block-separator {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #packageSection .wrapper1200 .packages .singlePackage {
@@ -1335,6 +1335,7 @@ hr.wp-block-separator {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #servicesSection .wrapper1200 .packages .singlePackage {

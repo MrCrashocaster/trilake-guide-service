@@ -69,21 +69,16 @@ $(document).ready(function() {
         // }
         
        
-            $('.fade-up, .fade-down, .fade-right, .fade-left').each(function() {
-                var crrnt = $(this);
-                if (crrnt.visible( true )) {
-                    crrnt.addClass('show');
-                }
-                else if (!crrnt.visible( true )) {
-                    crrnt.removeClass('show');
-                }
-            });  
-        
+        $('.fade-up, .fade-down, .fade-right, .fade-left').each(function() {
+            var crrnt = $(this);
+            if (crrnt.visible( true )) {
+                crrnt.addClass('show');
+            }
+            else if (!crrnt.visible( true )) {
+                crrnt.removeClass('show');
+            }
+        });  
 
-       
-             
-        
-        
     });
 
     $('.unparalledCopy .btn a').click(function(){
