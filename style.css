@@ -77,6 +77,91 @@ img {
   display: block !important;
 }
 
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav.scrolled {
+  background-color: rgba(239, 64, 71, 0.6) !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: #fff !important;
+}
+
+.nav.scrolledOff {
+  background-color: transparent;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: #EF4047 !important;
+}
+
+.nav .navContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 0;
+}
+
+.nav .navContent .backButton {
+  left: 3%;
+  top: 3%;
+  font-size: 2.5vw;
+  z-index: 1;
+  color: #EF4047;
+}
+
+.nav .navContent .backButton.scrolled {
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #fff !important;
+}
+
+.nav .navContent .backButton.scrolledOff {
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #EF4047 !important;
+}
+
+@media (min-width: 1920px) {
+  .nav .navContent .backButton {
+    font-size: 5rem;
+  }
+}
+
+.nav .navContent .navItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  color: #EF4047;
+}
+
+.nav .navContent .navItems.scrolled {
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #fff !important;
+}
+
+.nav .navContent .navItems.scrolledOff {
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #EF4047 !important;
+}
+
+.nav .navContent .navItems .h4 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-family: "A2 CWM WEB 3", sans-serif;
+}
+
 .background-transition {
   -webkit-transition: background-color 1s ease;
   transition: background-color 1s ease;
@@ -503,27 +588,6 @@ input[type="radio"] {
 .col5 {
   float: left;
   width: 20%;
-}
-
-.backButton {
-  position: absolute;
-  left: 3%;
-  top: 3%;
-  color: #EF4047;
-  font-size: 2.5vw;
-  z-index: 1;
-}
-
-@media (min-width: 1920px) {
-  .backButton {
-    font-size: 5rem;
-  }
-}
-
-@media (max-width: 650px) {
-  .backButton {
-    display: none;
-  }
 }
 
 .button {

@@ -34,6 +34,73 @@ $dark: #373A36;
 	display: block !important;
 }
 
+.nav {
+	width: 100%;
+    position: fixed;
+	z-index: 10;
+
+	&.scrolled {
+		background-color: rgba(239, 64, 71,.6) !important;
+		transition: background-color 200ms linear;
+		color: $white !important;
+	}
+	&.scrolledOff {
+		background-color: transparent;
+		transition: background-color 200ms linear;
+		color: $red !important;
+	}
+
+	.navContent {
+		display: flex;
+   		justify-content: space-between;
+		padding: 1em 0;
+
+		.backButton {
+			left: 3%;
+			top: 3%;
+			font-size: 2.5vw;
+			z-index: 1;
+			color: $red;
+
+			&.scrolled {
+				transition: color 200ms linear;
+				color: $white !important;
+			}
+
+			&.scrolledOff {
+				transition: color 200ms linear;
+				color: $red !important;
+			}
+		
+			@include maximum {
+				font-size: 5rem;
+			}
+		}
+		.navItems {
+			display: flex;
+			justify-content: space-between;
+			width: 50%;
+			color: $red;
+
+			&.scrolled {
+				transition: color 200ms linear;
+				color: $white !important;
+			}
+
+			&.scrolledOff {
+				transition: color 200ms linear;
+				color: $red !important;
+			}
+
+			.h4 {
+				font-size: 1.5vw;
+				text-transform: uppercase;
+				font-family: $cwm;
+			}
+		}
+	}
+}
+
 .background-transition {
 	transition: background-color 1s ease;
 }
@@ -436,23 +503,6 @@ input[type="radio"] {
 }
 
 // BUTTONS
-
-.backButton {
-	position: absolute;
-	left: 3%;
-	top: 3%;
-	color: $red;
-	font-size: 2.5vw;
-	z-index: 1;
-
-	@include maximum {
-		font-size: 5rem;
-	}
-
-	@include large-mobile {
-		display: none;
-	}
-}
 
 .button {
 	position: relative;

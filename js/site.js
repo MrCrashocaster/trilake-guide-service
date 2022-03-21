@@ -88,4 +88,20 @@ $(document).ready(function() {
 
         $('html, body').stop().animate({'scrollTop': clickedClass.offset().top - 0});
     });
+
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".nav");
+            var $navItems = $(".navItems");
+            var $backButton = $(".backButton");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            $nav.toggleClass('scrolledOff', $(this).scrollTop() <= $nav.height());
+
+            $navItems.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            $navItems.toggleClass('scrolledOff', $(this).scrollTop() <= $nav.height());
+
+            $backButton.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            $backButton.toggleClass('scrolledOff', $(this).scrollTop() <= $nav.height());
+        });
+      });
 });
