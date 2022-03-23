@@ -8,11 +8,31 @@ Version: 1.0
 /*************************************************
  MEDIA QUERY DEFINITIONS
 *************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-@import url("//db.onlinewebfonts.com/c/7f84c82115f70a63b5307518164b53dc?family=A2+CWM+WEB+3");
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+@font-face {
+  font-family: "CWM_Bold";
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/CWM_Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-Bold.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-BoldItalic.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-Italic.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-Light.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-LightItalic.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-Medium.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-MediumItalic.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-Regular.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-SemiBold.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/ChakraPetch-SemiBoldItalic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/PTSansNarrow.ttf") format("ttf");
+  src: url("/198.71.233.86/q48.a42.myftpupload.com/wp-content/themes/trilake/fonts/PTSansNarrow-Regular.ttf") format("ttf");
+}
+
 /*************************************************
  CSS RESERT - ERIC MEYER'S v2.0
 *************************************************/
@@ -159,7 +179,7 @@ img {
 .nav .navContent .navItems .h4 {
   font-size: 1.5vw;
   text-transform: uppercase;
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
 }
 
 .background-transition {
@@ -263,7 +283,7 @@ body.fixed {
 }
 
 h1, .h1 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   font-size: 5.2vw;
   line-height: 1em;
   font-weight: 600;
@@ -856,7 +876,6 @@ header {
 
 .heroContent .heroLinks {
   text-align: center;
-  font-family: "Maven Pro", sans-serif;
   z-index: 1;
 }
 
@@ -1097,7 +1116,7 @@ hr.wp-block-separator {
 }
 
 #about .heroHeadline .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1189,7 +1208,7 @@ hr.wp-block-separator {
 }
 
 #about #unparalledService .unparalledServiceContent .unparalledCopyLeft .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1228,7 +1247,7 @@ hr.wp-block-separator {
 }
 
 #about #unparalledService .unparalledServiceContent .unparalledCopyRight .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1317,7 +1336,7 @@ hr.wp-block-separator {
 }
 
 #about #packageSectionAbout .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1457,7 +1476,7 @@ hr.wp-block-separator {
 }
 
 #unparalledService .unparalledServiceContent .unparalledCopy .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1546,7 +1565,7 @@ hr.wp-block-separator {
 }
 
 #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1661,7 +1680,7 @@ hr.wp-block-separator {
 }
 
 #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1756,7 +1775,7 @@ hr.wp-block-separator {
 }
 
 #ctaContact .card .cardContent .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -1839,7 +1858,7 @@ hr.wp-block-separator {
 }
 
 #contact .heroContent .wrapper1200 .heroHeadline .h2 {
-  font-family: "A2 CWM WEB 3", sans-serif;
+  font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
   text-transform: uppercase;
