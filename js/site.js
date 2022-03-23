@@ -2,10 +2,10 @@
 /*jshint unused: false, undef:false, latedef: false */
 /*jshint unused: false, undef:false, latedef: false */
 
-$(window).on('load', function () {
-    // page is fully loaded, including all frames, objects and images
-    $('body').addClass('display');
-});
+// $(window).on('load', function () {
+//     // page is fully loaded, including all frames, objects and images
+//     $('body').addClass('display');
+// });
 
 $(document).ready(function() {
     
