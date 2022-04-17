@@ -32,7 +32,7 @@ $dark: #373A36;
 
 .nav {
 	width: 100%;
-    position: fixed;
+    position: absolute;
 	z-index: 10;
 
 	&.scrolled {
@@ -48,8 +48,10 @@ $dark: #373A36;
 
 	.navContent {
 		display: flex;
-   		justify-content: space-between;
+   		justify-content: right;
 		padding: 1em 0;
+		width: 45%;
+    	margin: 0 0 0 auto;
 
 		.backButton {
 			left: 3%;
@@ -75,7 +77,8 @@ $dark: #373A36;
 		.navItems {
 			display: flex;
 			justify-content: space-between;
-			width: 50%;
+			width: 100%;
+    		height: 2%;
 			color: $red;
 
 			&.scrolled {
@@ -88,10 +91,25 @@ $dark: #373A36;
 				color: $red !important;
 			}
 
-			.h4 {
-				font-size: 1.5vw;
-				text-transform: uppercase;
-				font-family: $cwm;
+			.singleItem {
+				width: 25%;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+
+				.h4 {
+					font-size: 1.1vw;
+					text-transform: uppercase;
+					font-family: "CWM_Bold", sans-serif;
+					padding-right: 10px;
+					font-family: $cwm;
+					color: $red;
+				}
+	
+				.h4:hover {
+					transform: scale(1.5);
+					margin-right: 10px;
+				}
 			}
 		}
 	}

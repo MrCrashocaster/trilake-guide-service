@@ -20,11 +20,26 @@ get_header(); ?>
 
         <div class="heroOverlay"></div>
 
-        <!-- <div class="backButton">
-            <a onclick="history.back()">
-                <i class="fas fa-long-arrow-alt-left"></i>
-            </a>
-        </div> -->
+        <div class="nav">
+            <div class="wrapper1200">
+                <div class="navContent">
+                    <div class="navItems">
+                        <div class="singleItem">
+                            <a href="<?php echo get_home_url(); ?>" class="h4">Home</a>
+                        </div>
+                        <div class="singleItem">
+                            <a href="/packages" class="h4">Packages</a>
+                        </div>
+                        <div class="singleItem">
+                            <a href="/about" class="h4">About</a>
+                        </div>
+                        <div class="singleItem">
+                            <a href="/contact" class="h4">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
