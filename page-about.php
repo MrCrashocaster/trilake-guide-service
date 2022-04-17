@@ -34,8 +34,8 @@ get_header(); ?>
 
                 <div class="heroHeadline animate__animated animate__fadeIn">
 
-                    <div class="h2"><span class="underlined-word">About <div class="underline"></span></div></div>
-                    <div class="h2"> Us</div>
+                    <div class="h2"><span class="underlined-word">Lorem <div class="underline"></span></div></div>
+                    <div class="h2"> Ipsum</div>
 
                 </div>
 
@@ -43,6 +43,39 @@ get_header(); ?>
 
         </div>
 
+    </div>
+
+    <div id="aboutSection">
+        <div class="aboutContainer">
+            <div class="imagesContainer">
+                <div class="foregroundParallaxImage">
+                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="https://trilakeguideservice.com/wp-content/uploads/2022/04/JoJoBaker-Name-min-min.png" />
+                </div>
+            </div>
+            <div class="aboutContent">
+                <div class="h2"><span class="underlined-word">About <div class="underline"></span></div></div>
+                <div class="h2"> Us</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus lorem justo, at viverra tellus mollis consequat. Nam accumsan pretium nulla, a varius nisl ullamcorper a. Donec rutrum mauris justo, quis consectetur massa tempus ac. Vestibulum nec facilisis lacus. Vestibulum odio sem, lacinia et facilisis sed, vestibulum quis lectus. Duis nec dictum enim. Suspendisse a dictum elit. Quisque at venenatis lacus, ac fringilla felis. Integer ac lectus justo. Proin accumsan ut magna eget accumsan. Integer mattis justo id mi mattis viverra vitae non diam. Nunc congue nunc at magna aliquam, vitae consequat turpis rhoncus. In tincidunt, diam id elementum pharetra, odio sem semper sem, nec maximus magna nulla sit amet libero. Pellentesque nec finibus nibh. Ut sed rutrum est, ut maximus lacus.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/04/FishCTA-100.jpg') center top no-repeat; background-size: cover; width: 100%;">
+        <div class="wrapper1200">
+            <div class="cardContent">
+                <div class="h2"><span class="underlined-word">Packages<div class="underline"></span></div></div>
+                <div class="button">
+                    <div class="btn">
+                        <div class="btnContent btnBorderDark">
+                            <a href="/packages">
+                                <p class="white">Grab your adventure</p>
+                                <div class="btnImg"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="unparalledService" class="">
@@ -57,37 +90,27 @@ get_header(); ?>
                         Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
                         Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
                     </p>
+                    <div class="button">
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="/contact">
+                                    <p class="white">Contact Us</p>
+                                    <div class="btnImg"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="unparalledCopyRight">
-                    <!-- <div class="h2 fade-right"><span class="underlined-word">Expertise <div class="underline"></span></div></div>
-                    <div class="h2 fade-right"> Service</div> -->
                     <img class="fade-left" src="https://trilakeguideservice.com/wp-content/uploads/2022/03/JoJo-100-e1646539030660.jpg" />
                 </div>
             </div> 
         </div>
     </div>
-    <div id="packageSectionAbout" class="changeBackgroundToDark">
-        <div class="wrapper1200">
-            <div class="packagesHeadline">
-                <div class="h1 red fade-right">Packages</div>
-                <div class="h2 fade-right">Grab your adventure</div>
-                <p class="fade-right">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                    fringilla torquent ridiculus rhoncus nibh tellus condimentum.
-                </p>
-                <div class="button">
-                    <div class="btn">
-                        <div class="btnContent btnBorderDark">
-                            <a href="/packages">
-                                <p class="white">View Packages</p>
-                                <div class="btnImg"></div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 </div>
+
+<?php get_footer(); ?>
 
     <!-- <div id="masonry">
 
@@ -108,7 +131,3 @@ get_header(); ?>
             <img src="https://www.okgreat.be/upload/A08.jpg">
 
     </div> -->
-
-</div>
-
-<?php get_footer(); ?>

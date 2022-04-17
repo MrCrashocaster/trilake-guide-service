@@ -89,7 +89,7 @@ get_header(); ?>
 <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/04/FishCTA-100.jpg') center top no-repeat; background-size: cover; width: 100%;">
     <div class="wrapper1200">
         <div class="cardContent">
-        <div class="h1"><span class="underlined-word">About Us<div class="underline"></span></div></div>
+        <div class="h2"><span class="underlined-word">About Us<div class="underline"></span></div></div>
                 <div class="button">
                     <div class="btn">
                         <div class="btnContent btnBorderDark">

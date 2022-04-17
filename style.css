@@ -1367,6 +1367,101 @@ hr.wp-block-separator {
   }
 }
 
+#about #aboutCTA {
+  margin: 0;
+}
+
+#aboutSection {
+  position: relative;
+}
+
+#aboutSection .aboutContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  #aboutSection .aboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+#aboutSection .aboutContainer .imagesContainer {
+  width: 55%;
+  max-width: 700px;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  #aboutSection .aboutContainer .imagesContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+#aboutSection .aboutContainer .imagesContainer .foregroundParallaxImage {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  bottom: -170px;
+}
+
+#aboutSection .aboutContainer .aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  z-index: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  #aboutSection .aboutContainer .aboutContent {
+    width: 90%;
+    margin: 4em auto;
+  }
+}
+
+#aboutSection .aboutContainer .aboutContent .h2 {
+  font-family: "CWM_Bold", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#aboutSection .aboutContainer .aboutContent .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#aboutSection .aboutContainer .aboutContent .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
+}
+
 #packagesHero {
   overflow: hidden;
 }
@@ -1502,6 +1597,12 @@ hr.wp-block-separator {
   max-width: 650px;
 }
 
+@media (min-width: 1700px) {
+  #packageSection .wrapper1200 .packagesHeadline .h1 {
+    font-size: 10.5rem;
+  }
+}
+
 #packageSection .wrapper1200 .packagesHeadline .h2 {
   font-size: 2.5vw;
 }
@@ -1627,6 +1728,12 @@ hr.wp-block-separator {
   max-width: 650px;
 }
 
+@media (min-width: 1700px) {
+  #servicesSection .wrapper1200 .packagesHeadline .h1 {
+    font-size: 10.5rem;
+  }
+}
+
 #servicesSection .wrapper1200 .packagesHeadline p {
   margin: 30px 0;
 }
@@ -1741,10 +1848,10 @@ hr.wp-block-separator {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 9em 0;
+  padding: 6em 0;
 }
 
-#aboutCTA .cardContent .h1 {
+#aboutCTA .cardContent .h2 {
   font-family: "CWM_Bold", sans-serif;
   position: relative;
   width: 100%;
@@ -1752,14 +1859,14 @@ hr.wp-block-separator {
   text-align: center;
 }
 
-#aboutCTA .cardContent .h1 .underlined-word {
+#aboutCTA .cardContent .h2 .underlined-word {
   position: relative;
   padding: 5px 7px 5px 7px;
   color: #fff;
   z-index: 0;
 }
 
-#aboutCTA .cardContent .h1 .underlined-word .underline {
+#aboutCTA .cardContent .h2 .underlined-word .underline {
   position: absolute;
   bottom: 14%;
   z-index: -1;
@@ -1943,10 +2050,10 @@ hr.wp-block-separator {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1963,27 +2070,11 @@ hr.wp-block-separator {
 }
 
 #contact #contactContent .contactContainer .contactForm {
-  width: 50%;
+  width: 65%;
 }
 
 @media (max-width: 650px) {
   #contact #contactContent .contactContainer .contactForm {
-    width: 100%;
-  }
-}
-
-#contact #contactContent .contactContainer .contactInformation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (max-width: 650px) {
-  #contact #contactContent .contactContainer .contactInformation {
     width: 100%;
   }
 }
@@ -1996,8 +2087,11 @@ hr.wp-block-separator {
 #contact #contactContent #gform_submit_button_1 {
   font-family: 'Chakra Petch';
   background-color: transparent;
-  border-bottom: 1px solid #373A36;
-  border-top: 1px solid #373A36;
+  border-bottom: 1px solid #EF4047;
+  border-top: 1px solid #EF4047;
+  font-size: 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 #contact #contactContent .ginput_container.ginput_container_textarea {
