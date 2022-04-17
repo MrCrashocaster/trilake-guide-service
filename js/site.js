@@ -13,6 +13,20 @@ $(document).ready(function() {
         
     });
 
+    // SLIDER
+
+    $('.imagesContainer').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        fade: true,
+        cssEase: 'linear',
+        arrows: 'false',
+        autoplay: 'true',
+        autoplaySpeed: 3000,
+        pauseOnHover: false
+      });
+
     var scrollTop = $(window).scrollTop();
     
     // WINDOW SCROLL

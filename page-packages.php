@@ -120,8 +120,13 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> One Person</div>
-                    <p class="dark">8 Hour Guided Trip
-                    </p>
+                    <ul>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                    </ul>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -138,8 +143,13 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 2<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Two People</div>
-                    <p class="dark">8 Hour Guided Trip
-                    </p>
+                    <ul>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                    </ul>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -156,8 +166,13 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 3<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Three People</div>
-                    <p class="dark">8 Hour Guided Trip
-                    </p>
+                    <ul>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                    </ul>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -174,8 +189,13 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 4<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Four People</div>
-                    <p class="dark">8 Hour Guided Trip
-                    </p>
+                    <ul>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                    </ul>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -197,8 +217,13 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> One Person</div>
-                    <p class="dark">8 Hour Guided Trip
-                    </p>
+                    <ul>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                        <li>Hello</li>
+                    </ul>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">

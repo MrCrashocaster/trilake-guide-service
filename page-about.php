@@ -48,8 +48,11 @@ get_header(); ?>
     <div id="aboutSection">
         <div class="aboutContainer">
             <div class="imagesContainer">
-                <div class="foregroundParallaxImage">
+                <div class="slide">
                     <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="https://trilakeguideservice.com/wp-content/uploads/2022/04/JoJoBaker-Name-min-min.png" />
+                </div>
+                <div class="slide">
+                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="https://trilakeguideservice.com/wp-content/uploads/2022/04/Dalton-min.png" />
                 </div>
             </div>
             <div class="aboutContent">

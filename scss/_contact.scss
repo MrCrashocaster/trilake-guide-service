@@ -92,6 +92,11 @@
             font-size: 2vw;
             font-weight: 900;
             display: inline-block;
+            border-radius: 0;
+
+            @include large-mobile {
+                font-size: 4vw;
+            }
         }
 
         #gform_submit_button_1:hover {

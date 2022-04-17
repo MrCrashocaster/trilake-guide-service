@@ -8,6 +8,7 @@ $large-mobile-width: 650px;
 $tablet-width: 768px;
 $landscape-mobile: 820px;
 $large-tablet-width: 1024px;
+$wrapper-break-1200: 1200px;
 $wrapper-break-width: 1360px;
 $laptop-width: 1400px;
 $desktop-width: 1700px;
@@ -46,6 +47,12 @@ $maximum-width: 1920px;
 
 @mixin large-tablet {
 	@media (max-width: #{$large-tablet-width}) {
+		@content;
+	}
+}
+
+@mixin wrapper-break-1200 {
+	@media (max-width: #{$wrapper-break-1200}) {
 		@content;
 	}
 }
