@@ -69,6 +69,12 @@
             }
         }
 
+        textarea.large {
+            height: 288px;
+            resize: none;
+            border-bottom: none;
+        }
+
         .gform_wrapper {
             width: 100%;
             margin: 0 auto;
@@ -77,11 +83,32 @@
         #gform_submit_button_1 {
             font-family: 'Chakra Petch';
             background-color: transparent;
-            border-bottom: 1px solid $red;
-            border-top: 1px solid $red;
-            font-size: 3rem;
+            border-bottom: 3px solid $dark;
+            border-top: 3px solid $dark;
             text-transform: uppercase;
             cursor: pointer;
+            padding: 10px;
+            color: #373A36;
+            font-size: 2vw;
+            font-weight: 900;
+            display: inline-block;
+        }
+
+        #gform_submit_button_1:hover {
+            filter: blur(1px);
+            border-bottom: 3px solid $red;
+            border-top: 3px solid $red;
+        }
+
+        #gform_submit_button_1:after {
+            content: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
+            width: 2vw;
+            height: 2vw;
+            padding: 10px;
+
+            @include large-mobile {
+                height: 4vw;
+            }
         }
 
         .ginput_container.ginput_container_textarea {
