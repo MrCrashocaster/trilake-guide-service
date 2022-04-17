@@ -20,11 +20,11 @@ get_header(); ?>
 
         <div class="heroOverlay"></div>
 
-        <div class="backButton">
+        <!-- <div class="backButton">
             <a onclick="history.back()">
                 <i class="fas fa-long-arrow-alt-left"></i>
             </a>
-        </div>
+        </div> -->
 
         <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
