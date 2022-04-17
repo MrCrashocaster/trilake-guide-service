@@ -266,6 +266,12 @@ h1, .h1 {
   font-weight: 600;
 }
 
+@media (min-width: 1700px) {
+  h1, .h1 {
+    font-size: 13.5rem;
+  }
+}
+
 @media (max-width: 650px) {
   h1, .h1 {
     font-size: 11.5vw;
@@ -282,7 +288,7 @@ h2, .h2 {
 
 @media (min-width: 1700px) {
   h2, .h2 {
-    font-size: 6.8rem;
+    font-size: 6.5rem;
   }
 }
 
@@ -1101,6 +1107,12 @@ hr.wp-block-separator {
   color: #fff;
 }
 
+@media (max-width: 650px) {
+  #about .heroHeadline .h2 {
+    font-size: 15.5vw;
+  }
+}
+
 #about .heroHeadline .h2 .underlined-word {
   position: relative;
   padding: 5px 7px 5px 7px;
@@ -1578,6 +1590,12 @@ hr.wp-block-separator {
   font-size: 2.2vw;
 }
 
+@media (min-width: 1700px) {
+  #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
+    font-size: 4.2rem;
+  }
+}
+
 @media (max-width: 650px) {
   #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
     font-size: 4.2vw;
@@ -1691,6 +1709,12 @@ hr.wp-block-separator {
 
 #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
   font-size: 2.2vw;
+}
+
+@media (min-width: 1700px) {
+  #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
+    font-size: 4.2rem;
+  }
 }
 
 @media (max-width: 650px) {

@@ -185,6 +185,10 @@
                     .subtext {
                         font-size: 2.2vw;
 
+                        @include desktop {
+                            font-size: 4.2rem;
+                        }
+
                         @include large-mobile {
                             font-size: 4.2vw;
                         }
@@ -284,6 +288,10 @@
 
                     .subtext {
                         font-size: 2.2vw;
+
+                        @include desktop {
+                            font-size: 4.2rem;
+                        }
 
                         @include large-mobile {
                             font-size: 4.2vw;

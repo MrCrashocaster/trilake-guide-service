@@ -17,7 +17,7 @@ get_header(); ?>
 
 <?php endif; ?>
 
-<div id="packagesHero" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/TriLake_Old_Couple-min-e1647713880857.jpg') center top no-repeat; background-size: cover; height: auto; width: 100%;">
+<div id="packagesHero" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/TriLake_Old_Couple-min-e1647713880857.jpg') center top no-repeat; background-size: cover; height: 100vh; width: 100%;">
 
     <div class="heroOverlay"></div>
 
