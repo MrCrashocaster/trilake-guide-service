@@ -824,12 +824,30 @@ header {
   overflow: hidden;
 }
 
-.logo {
-  width: 15%;
+.logoContainer {
+  width: 450px;
   top: 30px;
-  max-width: 200px;
   left: 40px;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 5;
+}
+
+@media (max-width: 650px) {
+  .logoContainer {
+    display: none;
+  }
+}
+
+.logoContainer .logo {
+  width: 15%;
+  margin-right: 30px;
 }
 
 .vert-center {

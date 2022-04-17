@@ -32,12 +32,23 @@
     overflow: hidden;
 }
 
-.logo {
-    width: 15%;
+.logoContainer {
+    width: 450px;
     top: 30px;
-    max-width: 200px;
     left: 40px;
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+
+    @include large-mobile {
+        display: none;
+    }
+
+    .logo {
+        width: 15%;
+        margin-right: 30px;
+    }
 }
 
 .vert-center {

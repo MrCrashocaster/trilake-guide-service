@@ -49,8 +49,8 @@ get_header(); ?>
 
                 <div class="heroHeadline animate__animated animate__fadeIn">
 
-                    <div class="h2"><span class="underlined-word">Lorem <div class="underline"></span></div></div>
-                    <div class="h2"> Ipsum</div>
+                    <div class="h2"><span class="underlined-word">All-Pro<div class="underline"></span></div></div>
+                    <div class="h2"> Angler Team</div>
 
                 </div>
 
@@ -100,19 +100,14 @@ get_header(); ?>
         <div class="wrapper1200">
             <div class="unparalledServiceContent">
                 <div class="unparalledCopyLeft">
-                    <div class="h2 fade-right"><span class="underlined-word">Expertise <div class="underline"></span></div></div>
-                    <div class="h2 fade-right"> Service</div>
-                    <p class="fade-right">
-                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
-                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
-                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
-                        Habitant a magna nascetur parturient turpis magnis a ullamcorper torquent a elit ad in condimentum ad potenti sapien massa nec.
-                    </p>
+                    <div class="h2 fade-right"><span class="underlined-word">Contact <div class="underline"></span></div></div>
+                    <div class="h2 fade-right"> Us</div>
+                    <p class="fade-right">We take pride in providing our customers with an unforgettable fishing experience. Our local team of skilled All-Pro Angler guides have expert knowledge and are passionate about fishing the lakes of North MS.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
                                 <a href="/contact">
-                                    <p class="white">Contact Us</p>
+                                    <p class="white">Get in Touch</p>
                                     <div class="btnImg"></div>
                                 </a>
                             </div>
