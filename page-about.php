@@ -73,7 +73,17 @@ get_header(); ?>
             <div class="aboutContent">
                 <div class="h2 fade-left"><span class="underlined-word">About <div class="underline"></span></div></div>
                 <div class="h2 fade-left"> Us</div>
-                <p class="fade-left">Tri-Lake Guide Service has been a long time dream of mine. I made the leap in 2021 and started guiding crappie fishing trips full time . I have been fishing since I was old enough to hold a pole. I love fishing with a passion and wanted it to be something I could do everyday. They say do what you love and love what you do. I started Tri-Lake Guide Service because I wanted to share what I love with my clients. In the future I want to be able to offer trips not only in MS but all over the southeast. There are a ton of great lakes that I would love to be able to offer to my clients. I want a trip with Tri-Lake Guide Service to be something that people want to do every year. Our team are pro crappie fisherman that fish the major crappie trails in Mississippi and nationally. We have been fishing all our lives and have the knowledge and skill set to give you a guided trip you won't forget.</p>
+                <p class="fade-left">Tri-Lake Guide Service has been a long time dream of mine. I made the leap in 2021 and started guiding crappie fishing trips full time. I have been fishing since I was old enough to hold a pole. I love fishing with a passion and wanted it to be something I could do everyday. They say do what you love and love what you do. I started Tri-Lake Guide Service because I wanted to share what I love with my clients. In the future I want to be able to offer trips not only in MS but all over the southeast. There are a ton of great lakes that I would love to be able to offer to my clients. I want a trip with Tri-Lake Guide Service to be something that people want to do every year. Our team are pro crappie fisherman that fish the major crappie trails in Mississippi and nationally. We have been fishing all our lives and have the knowledge and skill set to give you a guided trip you won't forget.</p>
+                <div class="button fade-left">
+                    <div class="btn">
+                        <div class="btnContent btnBorderDark">
+                            <a href="/contact">
+                                <p class="white">Get in Touch</p>
+                                <div class="btnImg"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -103,7 +113,7 @@ get_header(); ?>
                     <div class="h2 fade-right"><span class="underlined-word">Contact <div class="underline"></span></div></div>
                     <div class="h2 fade-right"> Us</div>
                     <p class="fade-right">We take pride in providing our customers with an unforgettable fishing experience. Our local team of skilled All-Pro Angler guides have expert knowledge and are passionate about fishing the lakes of North MS.</p>
-                    <div class="button">
+                    <div class="button fade-right">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
                                 <a href="/contact">

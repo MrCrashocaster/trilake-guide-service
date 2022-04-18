@@ -98,20 +98,24 @@ $dark: #373A36;
 				justify-content: center;
 
 				.h4 {
-					font-size: 1.1vw;
+					font-size: 1.4vw;
 					text-transform: uppercase;
 					font-family: "CWM_Bold", sans-serif;
-					padding-right: 10px;
 					font-family: $cwm;
 					color: $red;
 				}
 	
 				.h4:hover {
 					transform: scale(1.5);
-					margin-right: 10px;
+					text-decoration: line-through;
+					text-decoration-color: white;
 				}
 			}
 		}
+	}
+
+	@include large-tablet {
+		display: none;
 	}
 }
 

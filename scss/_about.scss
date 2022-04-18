@@ -264,10 +264,10 @@
             width: 55%;
             max-width: 700px;
             position: relative;
-            top: 80px;
+            top: 130px;
 
             @include wrapper-break-1200 {
-                top: 250px;
+                top: 340px;
             }
 
             @include large-tablet {
@@ -277,7 +277,11 @@
             }
 
             @include mobile {
-                top: 130px;
+                top: 20px;
+            }
+
+            @include small-mobile {
+                top: 110px;
             }
 
             .slide {

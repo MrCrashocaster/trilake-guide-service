@@ -172,10 +172,9 @@ img {
 }
 
 .nav .navContent .navItems .singleItem .h4 {
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   text-transform: uppercase;
   font-family: "CWM_Bold", sans-serif;
-  padding-right: 10px;
   font-family: "CWM_Bold", sans-serif;
   color: #EF4047;
 }
@@ -183,7 +182,15 @@ img {
 .nav .navContent .navItems .singleItem .h4:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
-  margin-right: 10px;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
 }
 
 .background-transition {
@@ -1471,12 +1478,12 @@ hr.wp-block-separator {
   width: 55%;
   max-width: 700px;
   position: relative;
-  top: 80px;
+  top: 130px;
 }
 
 @media (max-width: 1200px) {
   #aboutSection .aboutContainer .imagesContainer {
-    top: 250px;
+    top: 340px;
   }
 }
 
@@ -1490,7 +1497,13 @@ hr.wp-block-separator {
 
 @media (max-width: 550px) {
   #aboutSection .aboutContainer .imagesContainer {
-    top: 130px;
+    top: 20px;
+  }
+}
+
+@media (max-width: 485px) {
+  #aboutSection .aboutContainer .imagesContainer {
+    top: 110px;
   }
 }
 
