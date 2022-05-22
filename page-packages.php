@@ -56,6 +56,13 @@ get_header(); ?>
 
         </div>
 
+        <div class="scrollButtonContainer">
+
+        <img class="animate__animated animate__pulse animate__infinite infinite" src="https://trilakeguideservice.com/wp-content/uploads/2022/05/scroll.png"/>
+
+
+        </div>
+
     </div>
 
 </div>
@@ -257,8 +264,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Installation<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Livescope/Trolling Motor</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">Get an upgrade to your fishing experience. We can install the perfect setup for you.
                     </p>
                     <div class="button">
                         <div class="btn">
@@ -276,8 +282,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Training<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Livescope Training</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">Need hands on livescope training training? We can teach you everything you need to know!
                     </p>
                     <div class="button">
                         <div class="btn">
@@ -302,8 +307,7 @@ get_header(); ?>
             <div class="cardContent">
                 <div class="h2"><span class="underlined-word">Contact<div class="underline"></span></div></div>
                 <div class="h2 dark"> Us</div>
-                    <p class="dark">Vestibulum ac parturient vitae parturient elit suspendisse nec 
-                        fringilla torquent ridiculus rhoncus nibh tellus condimentum.
+                    <p class="dark">Get in touch with us to schedule your trip with us!
                     </p>
                     <div class="button">
                         <div class="btn">

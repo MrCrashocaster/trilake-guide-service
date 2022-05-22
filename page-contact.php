@@ -57,6 +57,13 @@ get_header(); ?>
 
             </div>
 
+            <div class="scrollButtonContainer">
+
+            <img class="animate__animated animate__pulse animate__infinite infinite" src="https://trilakeguideservice.com/wp-content/uploads/2022/05/scroll.png"/>
+
+
+        </div>
+
         </div>
 
     </div>
