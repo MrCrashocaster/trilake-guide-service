@@ -150,6 +150,41 @@
         }
     }
 
+    #sponsors {
+        position: relative;
+        background-color: $offWhite;
+
+        .sponsorHeadline {
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .sponsorContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+            flex-shrink: 0;
+            column-gap: 10%;
+            padding: 2em 0;
+
+            .singleSponsor {
+                filter: grayscale(1);
+
+                @include mobile {
+                    filter: none;
+                }
+            }
+
+            .singleSponsor:hover {
+                filter: none;
+            }
+        }
+    }
+
     #packageSectionAbout {
         position: relative;
         padding: 6em 0;

@@ -112,6 +112,29 @@ get_header(); ?>
         </div>
     </div>
 
+    <div id="sponsors">
+        <div class="sponsorContainer">
+            <div class="singleSponsor">
+                <a target="_blank" href="https://www.3poundfishing.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/3-pound.png" /></a>
+            </div>
+            <div class="singleSponsor">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100045061938308"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Bandito.png" /></a>
+            </div>
+            <div class="singleSponsor">
+                <a target="_blank" href="https://lonestarcrappiejigs.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Lone-Star2.png" /></a>
+            </div>
+            <div class="singleSponsor">
+                <a target="_blank" href="https://ozarkrod.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Ozark.png" /></a>
+            </div>
+            <div class="singleSponsor">
+                <a target="_blank" href="https://www.snipingbraid.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Sniping.png" /></a>
+            </div>
+        </div>
+        <div class="sponsorHeadline">
+            <div class="h2 dark subtext">Sponsors</div>
+        </div>
+    </div>
+
     <div id="unparalledService" class="">
         <div class="wrapper1200">
             <div class="unparalledServiceContent">

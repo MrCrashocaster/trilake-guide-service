@@ -128,15 +128,9 @@ get_header(); ?>
         <div class="packages changeBackgroundToDark">
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> One Person</div>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
+                    <div class="h2"><span class="underlined-word">One Person<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> $350</div>
+                    <p class="dark">Donec id convallis dolor. Nullam varius sit amet velit eget cursus. Sed accumsan erat in augue egestas suscipit id eget lectus. Aliquam in nunc dapibus, accumsan felis sit amet, fringilla nibh.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -151,15 +145,9 @@ get_header(); ?>
             </div>
             <div class="singlePackage fade-left">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Package 2<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> Two People</div>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
+                    <div class="h2"><span class="underlined-word">Two People<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> $450</div>
+                    <p class="dark">Donec id convallis dolor. Nullam varius sit amet velit eget cursus. Sed accumsan erat in augue egestas suscipit id eget lectus. Aliquam in nunc dapibus, accumsan felis sit amet, fringilla nibh.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -174,15 +162,9 @@ get_header(); ?>
             </div>
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Package 3<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> Three People</div>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
+                    <div class="h2"><span class="underlined-word">Three People<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> $625</div>
+                    <p class="dark">Donec id convallis dolor. Nullam varius sit amet velit eget cursus. Sed accumsan erat in augue egestas suscipit id eget lectus. Aliquam in nunc dapibus, accumsan felis sit amet, fringilla nibh.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -197,15 +179,9 @@ get_header(); ?>
             </div>
             <div class="singlePackage fade-left">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Package 4<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> Four People</div>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
+                    <div class="h2"><span class="underlined-word">Four People<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> $750</div>
+                    <p class="dark">Donec id convallis dolor. Nullam varius sit amet velit eget cursus. Sed accumsan erat in augue egestas suscipit id eget lectus. Aliquam in nunc dapibus, accumsan felis sit amet, fringilla nibh.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -221,19 +197,14 @@ get_header(); ?>
         </div>
         <div class="packagesHeadline wadingHeadline">
             <div class="h1 red fade-right">Wading Trips</div>
+            <div class="h2 fade-right">March 15th - April 25th</div>
         </div>
         <div class="packages wadingPackages">
             <div class="singlePackage fade-right">
                 <div class="singlePackageContent">
-                    <div class="h2"><span class="underlined-word">Package 1<div class="underline"></span></div></div>
-                    <div class="h2 dark subtext"> One Person</div>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
+                    <div class="h2"><span class="underlined-word">2 Person Min.<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> $200 per person</div>
+                    <p class="dark">Donec id convallis dolor. Nullam varius sit amet velit eget cursus. Sed accumsan erat in augue egestas suscipit id eget lectus. Aliquam in nunc dapibus, accumsan felis sit amet, fringilla nibh.</p>
                     <div class="button">
                         <div class="btn">
                             <div class="btnContent btnBorderDark">
@@ -264,7 +235,8 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Installation<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Livescope/Trolling Motor</div>
-                    <p class="dark">Get an upgrade to your fishing experience. We can install the perfect setup for you.
+                    <div class="h2 dark subtext">$350</div>
+                    <p class="dark">Get an upgrade to your fishing experience. We can install the perfect setup for you. ( +$100 IF FISHING )
                     </p>
                     <div class="button">
                         <div class="btn">
@@ -282,6 +254,7 @@ get_header(); ?>
                 <div class="singlePackageContent">
                     <div class="h2"><span class="underlined-word">Training<div class="underline"></span></div></div>
                     <div class="h2 dark subtext"> Livescope Training</div>
+                    <div class="h2 dark subtext">$350</div>
                     <p class="dark">Need hands on livescope training training? We can teach you everything you need to know!
                     </p>
                     <div class="button">

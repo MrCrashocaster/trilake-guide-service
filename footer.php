@@ -23,6 +23,6 @@
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.visible.js"></script>
 	<script src="js/jquery.parallax-scroll.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/site.js?131"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/site.js?133"></script>
 </body>
 </html>

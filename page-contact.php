@@ -77,6 +77,13 @@ get_header(); ?>
                     </div>
                     <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true" tabindex="49" field_values="check=First Choice,Second Choice"]'); ?>
                 </div>
+                <div class="contactInfoContainer">
+                    <div class="h2"><span class="underlined-word">Contact<div class="underline"></span></div></div>
+                    <div class="h2 dark subtext"> Info</div>
+                    <p class="dark">Location: Calhoun, MS</p>
+                    <p class="dark">Phone: <a href="tel:662.230.4223" class="dark">662.230.4223</a></p>
+                    <p class="dark">Email: <a href="mailto:jojobaker777@yahoo.com" class="dark">jojobaker777@yahoo.com</a></p>
+                </div>
             </div>
         </div>
     </div>

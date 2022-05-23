@@ -270,6 +270,10 @@ img {
   color: #fff;
 }
 
+.bold {
+  font-weight: 800;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -1339,6 +1343,62 @@ hr.wp-block-separator {
   width: 100%;
 }
 
+#about #sponsors {
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+#about #sponsors .sponsorHeadline {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about #sponsors .sponsorContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  padding: 2em 0;
+}
+
+#about #sponsors .sponsorContainer .singleSponsor {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+@media (max-width: 550px) {
+  #about #sponsors .sponsorContainer .singleSponsor {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
+#about #sponsors .sponsorContainer .singleSponsor:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
 #about #packageSectionAbout {
   position: relative;
   padding: 6em 0;
@@ -2167,33 +2227,70 @@ hr.wp-block-separator {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 5em 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   #contact #contactContent .contactContainer {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    row-gap: 4em;
   }
 }
 
 #contact #contactContent .contactContainer .contactForm {
-  width: 65%;
+  width: 50%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   #contact #contactContent .contactContainer .contactForm {
     width: 100%;
   }
+}
+
+#contact #contactContent .contactContainer .contactInfoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+}
+
+@media (max-width: 550px) {
+  #contact #contactContent .contactContainer .contactInfoContainer {
+    width: 100%;
+  }
+}
+
+#contact #contactContent .contactContainer .contactInfoContainer .h2 {
+  font-family: "CWM_Bold", sans-serif;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#contact #contactContent .contactContainer .contactInfoContainer .h2 .underlined-word {
+  position: relative;
+  padding: 5px 7px 5px 7px;
+  color: #fff;
+}
+
+#contact #contactContent .contactContainer .contactInfoContainer .h2 .underlined-word .underline {
+  position: absolute;
+  bottom: 14%;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #EF4047;
 }
 
 #contact #contactContent textarea.large {
