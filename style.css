@@ -75,6 +75,10 @@ img {
 /*************************************************
  GLOBAL STYLES
 ************************************************/
+.login-action-login {
+  background: #777777;
+}
+
 #mobileMenu {
   display: none;
 }

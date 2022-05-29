@@ -30,8 +30,12 @@ $dark: #373A36;
 	transition: $target $duration $type $delay;
 }
 
-// Mobile Menu
+// Wordpress Login Screen
+.login-action-login {
+	background: $darkGray;
+}
 
+// Mobile Menu
 #mobileMenu {
 	display: none;
 

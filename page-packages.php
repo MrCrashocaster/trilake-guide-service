@@ -86,31 +86,40 @@ get_header(); ?>
 
 <div id="unparalledService" class="">
     <div class="wrapper1200">
-        <div class="unparalledServiceContent">
-            <div class="unparalledCopy">
-                <div class="h2 fade-right"><span class="underlined-word">Unparalleled <div class="underline"></span></div></div>
-                <div class="h2 fade-right"> Service</div>
-                <p class="fade-right">We take pride in providing our customers with an unforgettable fishing experience. Our local team 
-                    of skilled All-Pro Angler guides have expert knowledge and are passionate about fishing the lakes of North MS. View 
-                    our custom inclusive packages and BOOK NOW to schedule your trip to fish with us!
-                </p>
-                <div class="button">
-                    <div class="btn">
-                        <div class="btnContent btnBorderDark">
-                            <a href="#packageSection">
-                                <p class="white">View Packages</p>
-                                <div class="btnImg"></div>
-                            </a>
-                        </div>
+        <?php if( have_rows('text_left__video_right') ): ?>
+            <?php while( have_rows('text_left__video_right') ): the_row(); ?>
+                <div class="unparalledServiceContent">
+                    <div class="unparalledCopy">
+                        <?php if( have_rows('text_left') ): ?>
+                            <?php while( have_rows('text_left') ): the_row(); ?>
+                                <?php if( have_rows('headline') ): ?>
+                                    <?php while( have_rows('headline') ): the_row(); ?>
+                                        <div class="h2 fade-right"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?> <div class="underline"></span></div></div>
+                                        <div class="h2 fade-right"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+                                <p class="fade-right"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
+                                <div class="button">
+                                    <div class="btn">
+                                        <div class="btnContent btnBorderDark">
+                                            <a href="#packageSection">
+                                                <p class="white">View Packages</p>
+                                                <div class="btnImg"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                    </div>
+                    <div class="unparalledVideo fade-left">
+                        <video preload autoplay muted loop autoplay="autoplay" playsinline loop="loop" muted="muted">
+                            <source src="<?php if(get_sub_field('video')['url']) { the_sub_field('video')['url']; } ?>" type="video/mp4">
+                        </video>
                     </div>
                 </div>
-            </div>
-            <div class="unparalledVideo fade-left">
-                <video preload autoplay muted loop autoplay="autoplay" playsinline loop="loop" muted="muted">
-                    <source src="https://trilakeguideservice.com/wp-content/uploads/2022/03/TriLake_B-Roll_V2_Final.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div> 
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
 </div>
 <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Young_Man_Crappie-min.jpg') bottom no-repeat; background-size: cover; width: 100%;">
@@ -343,29 +352,36 @@ get_header(); ?>
     </div>
 </div>
 
-<div id="ctaContact" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Group_Photo_Final-min.jpg') center top no-repeat; background-size: cover; width: 100%;">
-    <div class="heroOverlay"></div>
-    <div class="wrapper1200">
-        <div class="card">
-            <div class="cardContent">
-                <div class="h2"><span class="underlined-word">Contact<div class="underline"></span></div></div>
-                <div class="h2 dark"> Us</div>
-                    <p class="dark">Get in touch with us to schedule your trip with us!
-                    </p>
-                    <div class="button">
-                        <div class="btn">
-                            <div class="btnContent btnBorderDark">
-                                <a href="/contact">
-                                    <p class="dark">Get in Touch</p>
-                                    <div class="btnImg"></div>
-                                </a>
+<?php if( have_rows('contact') ): ?>
+    <?php while( have_rows('contact') ): the_row(); ?>
+        <div id="ctaContact" style="background: url('<?php if(get_sub_field('background_image')['url']) { the_sub_field('background_image')['url']; } ?>') center top no-repeat; background-size: cover; width: 100%;">
+            <div class="heroOverlay"></div>
+            <div class="wrapper1200">
+                <div class="card">
+                    <div class="cardContent">
+                        <?php if( have_rows('headline') ): ?>
+                            <?php while( have_rows('headline') ): the_row(); ?>
+                                <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?><div class="underline"></span></div></div>
+                                <div class="h2 dark"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                                <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
+                            <div class="button">
+                                <div class="btn">
+                                    <div class="btnContent btnBorderDark">
+                                        <a href="/contact">
+                                            <p class="dark">Get in Touch</p>
+                                            <div class="btnImg"></div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    <?php endwhile; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>
