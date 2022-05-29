@@ -9,6 +9,7 @@
 
 $(document).ready(function() {
 
+    var scrollTop = $(window).scrollTop();
     overlayButton = document.getElementById("overlay-button"); 
     overlay = document.getElementById("overlay");   
 
@@ -17,12 +18,14 @@ $(document).ready(function() {
             overlay.classList.remove('visibility-visible');
             overlayButton.classList.remove("checked");
             document.body.classList.remove('navOverflowHidden');
+            $("html, body").animate({ scrollTop: 0 }, "fast");
             console.log('hasClass');
         } 
         else {
             $('#overlay-button').addClass('checked');
             $('body').addClass('navOverflowHidden');
             $('#mobileMenu #overlay').addClass('visibility-visible');
+            $("html, body").animate({ scrollTop: 0 }, "fast");
             console.log('noClass');
         }
     });
@@ -44,8 +47,6 @@ $(document).ready(function() {
         autoplaySpeed: 3000,
         pauseOnHover: false
       });
-
-    var scrollTop = $(window).scrollTop();
     
     // WINDOW SCROLL
     $(window).on('scroll', function(){

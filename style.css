@@ -153,7 +153,7 @@ img {
 }
 
 #mobileMenu #overlay-button:hover span, #mobileMenu #overlay-button:hover span:before, #mobileMenu #overlay-button:hover span:after {
-  background: #333332;
+  background: #EF4047;
 }
 
 #mobileMenu #overlay-button.checked {
@@ -178,7 +178,7 @@ img {
 #mobileMenu #overlay {
   height: 100vh;
   width: 100vw;
-  background: #777777;
+  background: #373A36;
   z-index: 2;
   visibility: hidden;
   position: fixed;

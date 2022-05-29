@@ -83,7 +83,7 @@ $dark: #373A36;
 			}
 		}
 		&:hover span, &:hover span:before, &:hover span:after {
-		background: #333332;
+		background: $red;
 		}
 	}
 		
@@ -108,7 +108,7 @@ $dark: #373A36;
 	#overlay {
 	height: 100vh;
 	width: 100vw;
-	background: $darkGray;
+	background: $dark;
 	z-index: 2;
 	visibility: hidden;
 	position: fixed;
