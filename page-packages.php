@@ -116,15 +116,14 @@ get_header(); ?>
 <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Young_Man_Crappie-min.jpg') bottom no-repeat; background-size: cover; width: 100%;">
     <div class="wrapper1200">
         <div class="cardContent">
-        <div class="h2"><span class="underlined-word">About Us<div class="underline"></span></div></div>
-                <div class="button">
-                    <div class="btn">
-                        <div class="btnContent btnBorderDark">
-                            <a href="/about">
-                                <p class="white">Learn more</p>
-                                <div class="btnImg"></div>
-                            </a>
-                        </div>
+            <div class="h2"><span class="underlined-word">About Us<div class="underline"></span></div></div>
+            <div class="button">
+                <div class="btn">
+                    <div class="btnContent btnBorderDark">
+                        <a href="/about">
+                            <p class="white">Learn more</p>
+                            <div class="btnImg"></div>
+                        </a>
                     </div>
                 </div>
             </div>
