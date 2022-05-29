@@ -21,6 +21,10 @@
             font-size: 7.5vw;
             color: $white;
 
+            @include desktop {
+                font-size: 20.4rem;
+            }
+
             @include large-mobile {
                 font-size: 15.5vw;
             }
@@ -170,12 +174,18 @@
             flex-shrink: 0;
             column-gap: 10%;
             padding: 2em 0;
+            justify-content: space-evenly;
 
             .singleSponsor {
                 filter: grayscale(1);
 
                 @include mobile {
                     filter: none;
+                }
+
+                img {
+                    max-width: 220px;
+                    width: 100%;
                 }
             }
 

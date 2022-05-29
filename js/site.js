@@ -8,6 +8,24 @@
 // });
 
 $(document).ready(function() {
+
+    overlayButton = document.getElementById("overlay-button"); 
+    overlay = document.getElementById("overlay");   
+
+       $('#overlay-button').click(function(){
+        if ($("#overlay-button").hasClass("checked")) {
+            overlay.classList.remove('visibility-visible');
+            overlayButton.classList.remove("checked");
+            document.body.classList.remove('overflow-y-hidden');
+            console.log('hasClass');
+        } 
+        else {
+            $('#overlay-button').addClass('checked');
+            $('body').addClass('overflow-y-hidden');
+            $('#mobileMenu #overlay').addClass('visibility-visible');
+            console.log('noClass');
+        }
+    });
     
     $(window).resize(function() {
         

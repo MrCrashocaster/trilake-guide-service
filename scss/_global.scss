@@ -30,6 +30,114 @@ $dark: #373A36;
 	transition: $target $duration $type $delay;
 }
 
+// Mobile Menu
+
+#mobileMenu {
+	display: none;
+
+	@keyframes bugfix { from {padding:0;} to {padding:0;}}
+	@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
+
+	@include mobile {
+		display: contents;
+		overflow: hidden;
+	}
+
+	#overlay-button {
+		position: absolute;
+		right: 2em;
+		top: 3em;
+		padding: 26px 11px;
+		z-index: 5;
+		cursor: pointer;
+		user-select: none;
+
+		span {
+			height: 4px;
+			width: 35px;
+			border-radius: 2px;
+			background-color: white;
+			position: relative;
+			display: block;
+			transition: all .2s ease-in-out;
+
+			&:before {
+				top: -10px;
+				visibility: visible;
+			}
+			&:after {
+				top: 10px;
+			}
+			&:before, &:after {
+				height: 4px;
+				width: 35px;
+				border-radius: 2px;
+				background-color: white;
+				position: absolute;
+				content: "";
+				transition: all .2s ease-in-out;
+			}
+		}
+		&:hover span, &:hover span:before, &:hover span:after {
+		background: #333332;
+		}
+	}
+		
+	#overlay-button.checked {
+		&:hover span, span{
+			background: transparent;
+		}
+
+		span {
+			&:before {
+				transform: rotate(45deg) translate(7px, 7px);
+				opacity: 1;
+			}
+			&:after {
+				transform: rotate(-45deg) translate(7px, -7px);
+			}
+		}
+	}
+
+	#overlay {
+	height: 100vh;
+	width: 100vw;
+	background: $darkGray;
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
+	&.active {
+		visibility: visible;
+	}
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		margin-top: 20%;
+		height: 80vh;
+		padding-left: 0;
+		list-style-type: none;
+		li {
+		padding: 1em;
+		a {
+			color: white;
+			text-decoration: none;
+			font-size: 1.5em;
+			&:hover {
+			color: $red;
+			}
+		}
+		}
+
+		li:before {
+			content: none;
+		}
+	}
+	}
+}
+
 .nav {
 	width: 100%;
     position: absolute;
@@ -50,7 +158,7 @@ $dark: #373A36;
 		display: flex;
    		justify-content: right;
 		padding: 1em 0;
-		width: 45%;
+		width: 100%;
     	margin: 0 0 0 auto;
 
 		.backButton {
@@ -98,7 +206,7 @@ $dark: #373A36;
 				justify-content: center;
 
 				.h4 {
-					font-size: 1.4vw;
+					font-size: 2rem;
 					text-transform: uppercase;
 					font-family: "CWM_Bold", sans-serif;
 					font-family: $cwm;
@@ -114,9 +222,13 @@ $dark: #373A36;
 		}
 	}
 
-	@include large-tablet {
+	@include mobile {
 		display: none;
 	}
+}
+
+.visibility-visible {
+	visibility: visible !important;
 }
 
 .background-transition {
@@ -219,6 +331,10 @@ body {
 
 }
 
+.cwm {
+	font-family: $cwm !important;
+}
+
 h1, .h1 {
 	font-family: $cwm;
 	font-size: 5.2vw;
@@ -242,11 +358,11 @@ h2, .h2 {
 	color: $dark;
 
 	@include desktop {
-		font-size: 6.5rem;
+		font-size: 6.4rem;
 	}
 
 	@include large-mobile {
-		font-size: 8.5vw;
+		font-size: 4.8rem;
 	}
 }
 
@@ -450,6 +566,10 @@ input[type="radio"] {
 
 .overflow-hidden {
 	overflow: hidden;
+}
+
+.overflow-y-hidden {
+	overflow-y: hidden;
 }
 
 .overflow-y-scroll {

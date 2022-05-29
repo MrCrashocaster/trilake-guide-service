@@ -42,6 +42,18 @@ get_header(); ?>
         </div>
     </div>
 
+    <div id="mobileMenu">
+        <div id="overlay-button"><span></span></div>
+        <div id="overlay">
+            <ul>
+            <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
+            <li><a class="cwm" href="/packages">Packages</a></li>
+            <li><a class="cwm" href="/about">About</a></li>
+            <li><a class="cwm" href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
     <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
     <div class="heroContent">
@@ -122,7 +134,7 @@ get_header(); ?>
             <p class="fade-right">Our 8 hour guided fishing trips have a 1-4 person limit.
                 We stock our boats with the newest equipment and fish finding technology. All equipment, tackle, and gear are provided. The fish 
                 you catch will be cleaned and vacuum sealed for you to take home. Wear appropriate clothing for weather conditions 
-                and bring a snack to eat.
+                and bring a snack to eat. <span class="bold">Need a fishing license? Grab one <a class="red" target="_blank" href="https://www.mdwfp.com/license/fishing/">here</a></span>.
             </p>
         </div>
         <div class="packages changeBackgroundToDark">

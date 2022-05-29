@@ -75,6 +75,150 @@ img {
 /*************************************************
  GLOBAL STYLES
 ************************************************/
+#mobileMenu {
+  display: none;
+}
+
+@keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  #mobileMenu {
+    display: contents;
+    overflow: hidden;
+  }
+}
+
+#mobileMenu #overlay-button {
+  position: absolute;
+  right: 2em;
+  top: 3em;
+  padding: 26px 11px;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#mobileMenu #overlay-button span {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
+  position: relative;
+  display: block;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#mobileMenu #overlay-button span:before {
+  top: -10px;
+  visibility: visible;
+}
+
+#mobileMenu #overlay-button span:after {
+  top: 10px;
+}
+
+#mobileMenu #overlay-button span:before, #mobileMenu #overlay-button span:after {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
+  position: absolute;
+  content: "";
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#mobileMenu #overlay-button:hover span, #mobileMenu #overlay-button:hover span:before, #mobileMenu #overlay-button:hover span:after {
+  background: #333332;
+}
+
+#mobileMenu #overlay-button.checked:hover span, #mobileMenu #overlay-button.checked span {
+  background: transparent;
+}
+
+#mobileMenu #overlay-button.checked span:before {
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+          transform: rotate(45deg) translate(7px, 7px);
+  opacity: 1;
+}
+
+#mobileMenu #overlay-button.checked span:after {
+  -webkit-transform: rotate(-45deg) translate(7px, -7px);
+          transform: rotate(-45deg) translate(7px, -7px);
+}
+
+#mobileMenu #overlay {
+  height: 100vh;
+  width: 100vw;
+  background: #777777;
+  z-index: 2;
+  visibility: hidden;
+  position: fixed;
+}
+
+#mobileMenu #overlay.active {
+  visibility: visible;
+}
+
+#mobileMenu #overlay ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 20%;
+  height: 80vh;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#mobileMenu #overlay ul li {
+  padding: 1em;
+}
+
+#mobileMenu #overlay ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#mobileMenu #overlay ul li a:hover {
+  color: #EF4047;
+}
+
+#mobileMenu #overlay ul li:before {
+  content: none;
+}
+
 .nav {
   width: 100%;
   position: absolute;
@@ -103,7 +247,7 @@ img {
       -ms-flex-pack: right;
           justify-content: right;
   padding: 1em 0;
-  width: 45%;
+  width: 100%;
   margin: 0 0 0 auto;
 }
 
@@ -172,7 +316,7 @@ img {
 }
 
 .nav .navContent .navItems .singleItem .h4 {
-  font-size: 1.4vw;
+  font-size: 2rem;
   text-transform: uppercase;
   font-family: "CWM_Bold", sans-serif;
   font-family: "CWM_Bold", sans-serif;
@@ -187,10 +331,14 @@ img {
           text-decoration-color: white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 550px) {
   .nav {
     display: none;
   }
+}
+
+.visibility-visible {
+  visibility: visible !important;
 }
 
 .background-transition {
@@ -296,6 +444,10 @@ body.fixed {
   overflow: hidden;
 }
 
+.cwm {
+  font-family: "CWM_Bold", sans-serif !important;
+}
+
 h1, .h1 {
   font-family: "CWM_Bold", sans-serif;
   font-size: 5.2vw;
@@ -325,13 +477,13 @@ h2, .h2 {
 
 @media (min-width: 1700px) {
   h2, .h2 {
-    font-size: 6.5rem;
+    font-size: 6.4rem;
   }
 }
 
 @media (max-width: 650px) {
   h2, .h2 {
-    font-size: 8.5vw;
+    font-size: 4.8rem;
   }
 }
 
@@ -571,6 +723,10 @@ input[type="radio"] {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .overflow-y-scroll {
@@ -1185,6 +1341,12 @@ hr.wp-block-separator {
   color: #fff;
 }
 
+@media (min-width: 1700px) {
+  #about .heroHeadline .h2 {
+    font-size: 20.4rem;
+  }
+}
+
 @media (max-width: 650px) {
   #about .heroHeadline .h2 {
     font-size: 15.5vw;
@@ -1380,6 +1542,9 @@ hr.wp-block-separator {
   -webkit-column-gap: 10%;
           column-gap: 10%;
   padding: 2em 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #about #sponsors .sponsorContainer .singleSponsor {
@@ -1392,6 +1557,11 @@ hr.wp-block-separator {
     -webkit-filter: none;
             filter: none;
   }
+}
+
+#about #sponsors .sponsorContainer .singleSponsor img {
+  max-width: 220px;
+  width: 100%;
 }
 
 #about #sponsors .sponsorContainer .singleSponsor:hover {
@@ -1813,6 +1983,9 @@ hr.wp-block-separator {
 @media (max-width: 650px) {
   #packageSection .wrapper1200 .packages .singlePackage {
     margin-right: 0;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
   }
 }
 
@@ -1826,6 +1999,18 @@ hr.wp-block-separator {
   width: 100%;
   text-transform: uppercase;
   z-index: 1;
+}
+
+@media (max-width: 650px) {
+  #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
+    font-size: 2.4rem;
+  }
 }
 
 #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 .underlined-word {

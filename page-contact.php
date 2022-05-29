@@ -43,6 +43,18 @@ get_header(); ?>
             </div>
         </div>
 
+        <div id="mobileMenu">
+            <div id="overlay-button"><span></span></div>
+            <div id="overlay">
+                <ul>
+                <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
+                <li><a class="cwm" href="/packages">Packages</a></li>
+                <li><a class="cwm" href="/about">About</a></li>
+                <li><a class="cwm" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
         <div class="heroContent">
@@ -71,9 +83,9 @@ get_header(); ?>
     <div id="contactContent">
         <div class="wrapper1200">
             <div class="contactContainer">
-                <div class="contactForm">
+                <div id="contactForm" class="contactForm">
                     <div class="formHeadline animate__animated animate__fadeIn">
-                        <div class="h1">Get in <span class="red">Touch</span>.</div>
+                        <div class="h2 cwm">Get in <span class="red">Touch</span>.</div>
                     </div>
                     <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true" tabindex="49" field_values="check=First Choice,Second Choice"]'); ?>
                 </div>

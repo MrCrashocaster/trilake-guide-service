@@ -41,6 +41,18 @@ get_header(); ?>
             </div>
         </div>
 
+        <div id="mobileMenu">
+            <div id="overlay-button"><span></span></div>
+            <div id="overlay">
+                <ul>
+                <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
+                <li><a class="cwm" href="/packages">Packages</a></li>
+                <li><a class="cwm" href="/about">About</a></li>
+                <li><a class="cwm" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
 
         <div class="heroContent">
