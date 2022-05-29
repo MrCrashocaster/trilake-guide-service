@@ -121,6 +121,13 @@ $(document).ready(function() {
         $('html, body').stop().animate({'scrollTop': clickedClass.offset().top - 0});
     });
 
+    $('#scrollButton').click(function(){
+        var clicked = $(this);
+        var clickedClass = $('#scrollButton');
+
+        $('html, body').stop().animate({'scrollTop': clickedClass.offset().top - 0});
+    });
+
     // $(function () {
     //     $(document).scroll(function () {
     //         var $nav = $(".nav");

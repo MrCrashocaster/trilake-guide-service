@@ -1847,6 +1847,7 @@ hr.wp-block-separator {
           transform: scale(0.6);
   -webkit-transition: 1s all linear;
   transition: 1s all linear;
+  cursor: pointer;
 }
 
 #unparalledService {
@@ -2007,12 +2008,6 @@ hr.wp-block-separator {
   }
 }
 
-@media (max-width: 550px) {
-  #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
-    font-size: 2.4rem;
-  }
-}
-
 #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 .underlined-word {
   position: relative;
   padding: 5px 7px 5px 7px;
@@ -2138,6 +2133,12 @@ hr.wp-block-separator {
   width: 100%;
   text-transform: uppercase;
   z-index: 1;
+}
+
+@media (max-width: 650px) {
+  #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 {
+    font-size: 3.4rem;
+  }
 }
 
 #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .h2 .underlined-word {
