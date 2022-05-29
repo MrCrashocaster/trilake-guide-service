@@ -88,6 +88,8 @@ $dark: #373A36;
 	}
 		
 	#overlay-button.checked {
+		position: fixed;
+
 		&:hover span, span{
 			background: transparent;
 		}
@@ -566,6 +568,13 @@ input[type="radio"] {
 
 .no-margin-bottom {
 	margin-bottom: 0 !important;
+}
+
+.navOverflowHidden {
+	overflow: hidden;
+	height: 100vh;
+	touch-action: none;
+	-ms-touch-action: none;
 }
 
 .overflow-hidden {

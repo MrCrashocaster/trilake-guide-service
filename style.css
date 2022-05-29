@@ -156,6 +156,10 @@ img {
   background: #333332;
 }
 
+#mobileMenu #overlay-button.checked {
+  position: fixed;
+}
+
 #mobileMenu #overlay-button.checked:hover span, #mobileMenu #overlay-button.checked span {
   background: transparent;
 }
@@ -723,6 +727,13 @@ input[type="radio"] {
 
 .no-margin-bottom {
   margin-bottom: 0 !important;
+}
+
+.navOverflowHidden {
+  overflow: hidden;
+  height: 100vh;
+  touch-action: none;
+  -ms-touch-action: none;
 }
 
 .overflow-hidden {

@@ -16,12 +16,12 @@ $(document).ready(function() {
         if ($("#overlay-button").hasClass("checked")) {
             overlay.classList.remove('visibility-visible');
             overlayButton.classList.remove("checked");
-            document.body.classList.remove('overflow-y-hidden');
+            document.body.classList.remove('navOverflowHidden');
             console.log('hasClass');
         } 
         else {
             $('#overlay-button').addClass('checked');
-            $('body').addClass('overflow-y-hidden');
+            $('body').addClass('navOverflowHidden');
             $('#mobileMenu #overlay').addClass('visibility-visible');
             console.log('noClass');
         }
