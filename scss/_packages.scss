@@ -88,6 +88,10 @@
                 width: 100%;
                 text-transform: uppercase;
 
+                @include large-mobile {
+                    font-size: 10.4vw;
+                }
+
                 .underlined-word {
                     position: relative;
                     padding: 5px 7px 5px 7px;
@@ -174,7 +178,7 @@
                         z-index: 1;
 
                         @include large-mobile {
-                            font-size: 3.4rem;
+                            font-size: 8vw;
                         }
         
                         .underlined-word {
@@ -288,7 +292,7 @@
                         z-index: 1;
 
                         @include large-mobile {
-                            font-size: 3.4rem;
+                            font-size: 8vw;
                         }
         
                         .underlined-word {
