@@ -116,7 +116,7 @@ get_header(); ?>
                                 <?php while( have_rows('contact_information_section') ): the_row(); ?>
                                     <?php if( have_rows('contact_information_section_headline') ): ?>
                                         <?php while( have_rows('contact_information_section_headline') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
                                         <?php endwhile; ?>
                                     <?php endif; ?>

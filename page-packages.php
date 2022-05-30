@@ -94,7 +94,7 @@ get_header(); ?>
                             <?php while( have_rows('text_left') ): the_row(); ?>
                                 <?php if( have_rows('headline') ): ?>
                                     <?php while( have_rows('headline') ): the_row(); ?>
-                                        <div class="h2 fade-right"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?> <div class="underline"></span></div></div>
+                                        <div class="h2 fade-right"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); ?> <div class="underline"></span></div><?php } ?></div>
                                         <div class="h2 fade-right"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
                                     <?php endwhile; ?>
                                 <?php endif; ?>
@@ -160,7 +160,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_1') ): ?>
                                         <?php while( have_rows('package_1') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
                                             <div class="button">
@@ -202,7 +202,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_3') ): ?>
                                         <?php while( have_rows('package_3') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
                                             <div class="button">
@@ -223,7 +223,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_4') ): ?>
                                         <?php while( have_rows('package_4') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
                                             <div class="button">
@@ -259,7 +259,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_1') ): ?>
                                         <?php while( have_rows('package_1') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
                                             <div class="button">
@@ -321,7 +321,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_1') ): ?>
                                         <?php while( have_rows('package_1') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <div class="h2 dark subtext"><?php if(get_sub_field('price')) { the_sub_field('price'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
@@ -343,7 +343,7 @@ get_header(); ?>
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_2') ): ?>
                                         <?php while( have_rows('package_2') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
                                             <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
                                             <div class="h2 dark subtext"><?php if(get_sub_field('price')) { the_sub_field('price'); } ?></div>
                                             <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
@@ -378,7 +378,7 @@ get_header(); ?>
                     <div class="cardContent">
                         <?php if( have_rows('headline') ): ?>
                             <?php while( have_rows('headline') ): the_row(); ?>
-                                <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?><div class="underline"></span></div></div>
+                                <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); ?><div class="underline"></span></div><?php } ?></div>
                                 <div class="h2 dark"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
                             <?php endwhile; ?>
                         <?php endif; ?>
