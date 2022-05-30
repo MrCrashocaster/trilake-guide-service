@@ -511,7 +511,7 @@ h2, .h2 {
 
 @media (max-width: 650px) {
   h2, .h2 {
-    font-size: 4.8rem;
+    font-size: 10.4vw;
   }
 }
 
@@ -1940,7 +1940,7 @@ hr.wp-block-separator {
 
 @media (max-width: 650px) {
   #unparalledService .unparalledServiceContent .unparalledCopy .h2 {
-    font-size: 10.4vw;
+    font-size: 9.4vw;
   }
 }
 
@@ -2086,7 +2086,7 @@ hr.wp-block-separator {
 
 @media (max-width: 650px) {
   #packageSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
-    font-size: 4.2vw;
+    font-size: 5.2vw;
   }
 }
 
@@ -2256,7 +2256,7 @@ hr.wp-block-separator {
 
 @media (max-width: 650px) {
   #servicesSection .wrapper1200 .packages .singlePackage .singlePackageContent .subtext {
-    font-size: 4.2vw;
+    font-size: 5.2vw;
   }
 }
 

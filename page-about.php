@@ -192,28 +192,40 @@ get_header(); ?>
     </div>
 
     <div id="unparalledService" class="">
-        <div class="wrapper1200">
-            <div class="unparalledServiceContent">
-                <div class="unparalledCopyLeft">
-                    <div class="h2 fade-right"><span class="underlined-word">Contact <div class="underline"></span></div></div>
-                    <div class="h2 fade-right"> Us</div>
-                    <p class="fade-right">We take pride in providing our customers with an unforgettable fishing experience. Our local team of skilled All-Pro Angler guides have expert knowledge and are passionate about fishing the lakes of North MS.</p>
-                    <div class="button fade-right">
-                        <div class="btn">
-                            <div class="btnContent btnBorderDark">
-                                <a href="/contact">
-                                    <p class="white">Get in Touch</p>
-                                    <div class="btnImg"></div>
-                                </a>
-                            </div>
+        <?php if( have_rows('text_left__image_right') ): ?>
+            <?php while( have_rows('text_left__image_right') ): the_row(); ?>
+                <div class="wrapper1200">
+                    <div class="unparalledServiceContent">
+                        <div class="unparalledCopyLeft">
+                            <?php if( have_rows('text_left') ): ?>
+                                <?php while( have_rows('text_left') ): the_row(); ?>
+                                    <?php if( have_rows('headline') ): ?>
+                                        <?php while( have_rows('headline') ): the_row(); ?>
+                                            <div class="h2 fade-right"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); ?> <div class="underline"></span></div><?php } ?></div>
+                                            <div class="h2 fade-right"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+                                        <?php endwhile; ?>
+                                    <?php endif; ?>
+                                    <p class="fade-right"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
+                                    <div class="button fade-right">
+                                        <div class="btn">
+                                            <div class="btnContent btnBorderDark">
+                                                <a href="/contact">
+                                                    <p class="white">Get in Touch</p>
+                                                    <div class="btnImg"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         </div>
-                    </div>
+                        <div class="unparalledCopyRight">
+                            <img class="fade-left" src="<?php if(get_sub_field('image_right')['url']) { the_sub_field('image_right')['url']; } ?>" />
+                        </div>
+                    </div> 
                 </div>
-                <div class="unparalledCopyRight">
-                    <img class="fade-left" src="https://trilakeguideservice.com/wp-content/uploads/2022/03/JoJo-100-e1646539030660.jpg" />
-                </div>
-            </div> 
-        </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
    
 </div>
