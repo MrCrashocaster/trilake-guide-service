@@ -122,9 +122,9 @@ get_header(); ?>
                                     <?php endif; ?>
                                     <?php if( have_rows('contact_information') ): ?>
                                         <?php while( have_rows('contact_information') ): the_row(); ?>
-                                            <p class="dark">Location: <?php if(get_sub_field('location')) { the_sub_field('location'); } ?></p>
-                                            <p class="dark">Phone: <a href="tel:<?php if(get_sub_field('phone')) { the_sub_field('phone'); } ?>" class="dark"><?php if(get_sub_field('phone')) { the_sub_field('phone'); } ?></a></p>
-                                            <p class="dark">Email: <a href="mailto:<?php if(get_sub_field('email')) { the_sub_field('email'); } ?>" class="dark"><?php if(get_sub_field('email')) { the_sub_field('email'); } ?></a></p>
+                                            <p class="dark"><strong>Location:</strong> <?php if(get_sub_field('location')) { the_sub_field('location'); } ?></p>
+                                            <p class="dark"><strong>Phone:</strong> <a href="tel:<?php if(get_sub_field('phone')) { the_sub_field('phone'); } ?>" class="dark"><?php if(get_sub_field('phone')) { the_sub_field('phone'); } ?></a></p>
+                                            <p class="dark"><strong>Email:</strong> <a href="mailto:<?php if(get_sub_field('email')) { the_sub_field('email'); } ?>" class="dark"><?php if(get_sub_field('email')) { the_sub_field('email'); } ?></a></p>
                                         <?php endwhile; ?>
                                     <?php endif; ?>
                                 <?php endwhile; ?>

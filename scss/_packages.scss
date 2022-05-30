@@ -126,6 +126,12 @@
         .packagesHeadline {
             max-width: 650px;
 
+            a:hover {
+                text-decoration: line-through;
+                text-decoration-color: white;
+                text-transform: uppercase;
+            }
+
             .h1 {
                 @include desktop {
                     font-size: 10.5rem;
