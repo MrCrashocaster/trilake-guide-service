@@ -133,45 +133,73 @@ get_header(); ?>
         <?php endif; ?>
     </div>
 
-    <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/04/FishCTA-100.jpg') center top no-repeat; background-size: cover; width: 100%;">
-        <div class="wrapper1200">
-            <div class="cardContent">
-                <div class="h2"><span class="underlined-word">Packages<div class="underline"></span></div></div>
-                <div class="button">
-                    <div class="btn">
-                        <div class="btnContent btnBorderDark">
-                            <a href="/packages">
-                                <p class="white">Grab your adventure</p>
-                                <div class="btnImg"></div>
-                            </a>
+<?php if( have_rows('cta_with_background') ): ?>
+    <?php while( have_rows('cta_with_background') ): the_row(); ?>
+        <div id="aboutCTA" style="background: url('<?php if(get_sub_field('background_image')['url']) { the_sub_field('background_image')['url']; } ?>') bottom no-repeat; background-size: cover; width: 100%;">
+            <div class="wrapper1200">
+                <div class="cardContent">
+                    <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                    <div class="button">
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                    <p class="white"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
+                                    <div class="btnImg"></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php endwhile; ?>
+<?php endif; ?>
 
     <div id="sponsors">
-        <div class="sponsorContainer">
-            <div class="singleSponsor">
-                <a target="_blank" href="https://www.3poundfishing.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/3-pound.png" /></a>
-            </div>
-            <div class="singleSponsor">
-                <a target="_blank" href="https://www.bandidocrappiejigs.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Bandito.png" /></a>
-            </div>
-            <div class="singleSponsor">
-                <a target="_blank" href="https://lonestarcrappiejigs.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Lone-Star2.png" /></a>
-            </div>
-            <div class="singleSponsor">
-                <a target="_blank" href="https://ozarkrod.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Ozark.png" /></a>
-            </div>
-            <div class="singleSponsor">
-                <a target="_blank" href="https://www.snipingbraid.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Sniping.png" /></a>
-            </div>
-        </div>
-        <div class="sponsorHeadline">
-            <div class="h2 dark subtext">Sponsors</div>
-        </div>
+        <?php if( have_rows('sponsors') ): ?>
+            <?php while( have_rows('sponsors') ): the_row(); ?>
+                <div class="sponsorContainer">
+                    <?php if( have_rows('sponsor_1') ): ?>
+                        <?php while( have_rows('sponsor_1') ): the_row(); ?>
+                            <div class="singleSponsor">
+                                <a target="_blank" href="<?php if(get_sub_field('sponsor_link')) { the_sub_field('sponsor_link'); } ?>"><img src="<?php if(get_sub_field('sponsor_image')['url']) { the_sub_field('sponsor_image')['url']; } ?>" /></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                    <?php if( have_rows('sponsor_2') ): ?>
+                        <?php while( have_rows('sponsor_2') ): the_row(); ?>
+                            <div class="singleSponsor">
+                                <a target="_blank" href="<?php if(get_sub_field('sponsor_link')) { the_sub_field('sponsor_link'); } ?>"><img src="<?php if(get_sub_field('sponsor_image')['url']) { the_sub_field('sponsor_image')['url']; } ?>" /></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                    <?php if( have_rows('sponsor_3') ): ?>
+                        <?php while( have_rows('sponsor_3') ): the_row(); ?>
+                            <div class="singleSponsor">
+                                <a target="_blank" href="<?php if(get_sub_field('sponsor_link')) { the_sub_field('sponsor_link'); } ?>"><img src="<?php if(get_sub_field('sponsor_image')['url']) { the_sub_field('sponsor_image')['url']; } ?>" /></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                    <?php if( have_rows('sponsor_4') ): ?>
+                        <?php while( have_rows('sponsor_4') ): the_row(); ?>
+                            <div class="singleSponsor">
+                                <a target="_blank" href="<?php if(get_sub_field('sponsor_link')) { the_sub_field('sponsor_link'); } ?>"><img src="<?php if(get_sub_field('sponsor_image')['url']) { the_sub_field('sponsor_image')['url']; } ?>" /></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                    <?php if( have_rows('sponsor_5') ): ?>
+                        <?php while( have_rows('sponsor_5') ): the_row(); ?>
+                            <div class="singleSponsor">
+                                <a target="_blank" href="<?php if(get_sub_field('sponsor_link')) { the_sub_field('sponsor_link'); } ?>"><img src="<?php if(get_sub_field('sponsor_image')['url']) { the_sub_field('sponsor_image')['url']; } ?>" /></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                </div>
+                <div class="sponsorHeadline">
+                    <div class="h2 dark subtext"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
 
     <div id="customerPhotos">

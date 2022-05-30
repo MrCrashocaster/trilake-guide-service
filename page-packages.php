@@ -122,23 +122,27 @@ get_header(); ?>
         <?php endif; ?>
     </div>
 </div>
-<div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/Young_Man_Crappie-min.jpg') bottom no-repeat; background-size: cover; width: 100%;">
-    <div class="wrapper1200">
-        <div class="cardContent">
-            <div class="h2"><span class="underlined-word">About Us<div class="underline"></span></div></div>
-            <div class="button">
-                <div class="btn">
-                    <div class="btnContent btnBorderDark">
-                        <a href="/about">
-                            <p class="white">Learn more</p>
-                            <div class="btnImg"></div>
-                        </a>
+<?php if( have_rows('cta_with_background') ): ?>
+    <?php while( have_rows('cta_with_background') ): the_row(); ?>
+        <div id="aboutCTA" style="background: url('<?php if(get_sub_field('background_image')['url']) { the_sub_field('background_image')['url']; } ?>') bottom no-repeat; background-size: cover; width: 100%;">
+            <div class="wrapper1200">
+                <div class="cardContent">
+                    <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?><div class="underline"></span></div></div>
+                    <div class="button">
+                        <div class="btn">
+                            <div class="btnContent btnBorderDark">
+                                <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                    <p class="white"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
+                                    <div class="btnImg"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    <?php endwhile; ?>
+<?php endif; ?>
 <div id="packageSection" class="">
     <div class="wrapper1200">
         <?php if( have_rows('packages') ): ?>
