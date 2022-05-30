@@ -39,14 +39,12 @@ $(document).ready(function() {
             overlayButton.classList.remove("checked");
             document.body.classList.remove('navOverflowHidden');
             $("html, body").animate({ scrollTop: 0 }, "fast");
-            console.log('hasClass');
         } 
         else {
             $('#overlay-button').addClass('checked');
             $('body').addClass('navOverflowHidden');
             $('#mobileMenu #overlay').addClass('visibility-visible');
             $("html, body").animate({ scrollTop: 0 }, "fast");
-            console.log('noClass');
         }
     });
     
