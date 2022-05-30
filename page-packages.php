@@ -289,11 +289,11 @@ get_header(); ?>
         <div class="customerPhotosContainer">
             <?php if( have_rows('customer_photos') ): ?>
                 <?php while( have_rows('customer_photos') ): the_row(); ?>
-                    <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_1')['url']) { the_sub_field('customer_photo_1')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                    <div class="singleCustomer fade-up" style="background: url('<?php if(get_sub_field('customer_photo_1')['url']) { the_sub_field('customer_photo_1')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
                     </div>
-                    <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_2')['url']) { the_sub_field('customer_photo_2')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                    <div class="singleCustomer fade-up" style="background: url('<?php if(get_sub_field('customer_photo_2')['url']) { the_sub_field('customer_photo_2')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
                     </div>
-                    <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_3')['url']) { the_sub_field('customer_photo_3')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                    <div class="singleCustomer fade-up" style="background: url('<?php if(get_sub_field('customer_photo_3')['url']) { the_sub_field('customer_photo_3')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
                     </div>
                 <?php endwhile; ?>
             <?php endif; ?>
