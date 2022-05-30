@@ -24,17 +24,17 @@ get_header(); ?>
 
                     <div class="logoContainer animate__animated animate__fadeIn">
                         <?php if(get_sub_field('logo')) { ?>
-                            <a href="https://www.facebook.com/Tri-Lake-guide-service-103168588519795" class="logo">
+                            <a target="_blank" href="https://www.facebook.com/Tri-Lake-guide-service-103168588519795" class="logo">
                                 <img src="<?php the_sub_field('logo') ?>" />
                             </a>
                         <?php } ?>
                         <?php if(get_sub_field('logo2')) { ?>
-                            <a href="https://www.tiktok.com/@tri_lakeguideservice" class="logo">
+                            <a target="_blank" href="https://www.tiktok.com/@tri_lakeguideservice" class="logo">
                                 <img src="<?php the_sub_field('logo2') ?>" />
                             </a>
                         <?php } ?> 
                         <?php if(get_sub_field('logo3')) { ?>
-                            <a class="logo">
+                            <a target="_blank" class="logo">
                                 <img src="<?php the_sub_field('logo3') ?>" />
                             </a>
                         <?php } ?>
