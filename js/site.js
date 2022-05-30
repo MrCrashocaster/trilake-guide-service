@@ -9,6 +9,26 @@
 
 $(document).ready(function() {
 
+    jQuery(function($) {
+        var path = window.location.href; 
+        // because the 'href' property of the DOM element is the absolute path
+        $('#nav a').each(function() {
+          if (this.href === path) {
+            $(this).addClass('active');
+          }
+        });
+      });
+
+      jQuery(function($) {
+        var path = window.location.href; 
+        // because the 'href' property of the DOM element is the absolute path
+        $('#mobileMenu a').each(function() {
+          if (this.href === path) {
+            $(this).addClass('active');
+          }
+        });
+      });
+
     var scrollTop = $(window).scrollTop();
     overlayButton = document.getElementById("overlay-button"); 
     overlay = document.getElementById("overlay");   

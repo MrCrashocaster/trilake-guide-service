@@ -24,7 +24,7 @@ get_header(); ?>
 
             <div class="heroOverlay"></div>
 
-            <div class="nav">
+            <div id="nav" class="nav">
                 <div class="wrapper1200">
                     <div class="navContent">
                         <div class="navItems">
@@ -32,13 +32,13 @@ get_header(); ?>
                                 <a href="<?php echo get_home_url(); ?>" class="h4">Home</a>
                             </div>
                             <div class="singleItem">
-                                <a href="/packages" class="h4">Packages</a>
+                                <a href="/packages/" class="h4">Packages</a>
                             </div>
                             <div class="singleItem">
-                                <a href="/about" class="h4">About</a>
+                                <a href="/about/" class="h4">About</a>
                             </div>
                             <div class="singleItem">
-                                <a href="/contact" class="h4">Contact</a>
+                                <a href="/contact/" class="h4">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -50,9 +50,9 @@ get_header(); ?>
                 <div id="overlay">
                     <ul>
                     <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
-                    <li><a class="cwm" href="/packages">Packages</a></li>
-                    <li><a class="cwm" href="/about">About</a></li>
-                    <li><a class="cwm" href="/contact">Contact</a></li>
+                    <li><a class="cwm" href="/packages/">Packages</a></li>
+                    <li><a class="cwm" href="/about/">About</a></li>
+                    <li><a class="cwm" href="/contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>

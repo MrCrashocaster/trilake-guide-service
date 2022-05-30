@@ -60,7 +60,7 @@ $dark: #373A36;
 			height: 4px;
 			width: 35px;
 			border-radius: 2px;
-			background-color: white;
+			background-color: $offWhite;
 			position: relative;
 			display: block;
 			transition: all .2s ease-in-out;
@@ -76,7 +76,7 @@ $dark: #373A36;
 				height: 4px;
 				width: 35px;
 				border-radius: 2px;
-				background-color: white;
+				background-color: $offWhite;
 				position: absolute;
 				content: "";
 				transition: all .2s ease-in-out;
@@ -112,9 +112,11 @@ $dark: #373A36;
 	z-index: 2;
 	visibility: hidden;
 	position: fixed;
+
 	&.active {
 		visibility: visible;
 	}
+	
 	ul {
 		display: flex;
 		justify-content: space-evenly;
@@ -125,16 +127,26 @@ $dark: #373A36;
 		height: 80vh;
 		padding-left: 0;
 		list-style-type: none;
+
 		li {
-		padding: 1em;
-		a {
-			color: white;
-			text-decoration: none;
-			font-size: 1.5em;
-			&:hover {
-			color: $red;
+			padding: 1em;
+			a {
+				color: $offWhite;
+				text-decoration: none;
+				font-size: 1.5em;
+
+				&.active {
+					color: $darkGray;
+					text-decoration: line-through;
+					text-decoration-color: $red;
+					pointer-events: none;
+					cursor: default;
+				}
+
+				&:hover {
+					color: $red;
+				}
 			}
-		}
 		}
 
 		li:before {
@@ -148,6 +160,7 @@ $dark: #373A36;
 	width: 100%;
     position: absolute;
 	z-index: 10;
+	background-color: rgba(55,58,54,0.15);
 
 	&.scrolled {
 		background-color: rgba(239, 64, 71,.6) !important;
@@ -216,13 +229,22 @@ $dark: #373A36;
 					text-transform: uppercase;
 					font-family: "CWM_Bold", sans-serif;
 					font-family: $cwm;
-					color: $red;
+					color: $offWhite;
+
+					&.active {
+						color: $darkGray;
+						text-decoration: line-through;
+						text-decoration-color: $red;
+						pointer-events: none;
+   						cursor: default;
+					}
 				}
 	
 				.h4:hover {
 					transform: scale(1.5);
 					text-decoration: line-through;
-					text-decoration-color: white;
+					text-decoration-color: $offWhite;
+					color: $red;
 				}
 			}
 		}

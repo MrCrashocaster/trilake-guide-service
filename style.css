@@ -125,7 +125,7 @@ img {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: white;
+  background-color: #f9f9f9;
   position: relative;
   display: block;
   -webkit-transition: all .2s ease-in-out;
@@ -145,7 +145,7 @@ img {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: white;
+  background-color: #f9f9f9;
   position: absolute;
   content: "";
   -webkit-transition: all .2s ease-in-out;
@@ -214,9 +214,18 @@ img {
 }
 
 #mobileMenu #overlay ul li a {
-  color: white;
+  color: #f9f9f9;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+#mobileMenu #overlay ul li a.active {
+  color: #777777;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #EF4047;
+          text-decoration-color: #EF4047;
+  pointer-events: none;
+  cursor: default;
 }
 
 #mobileMenu #overlay ul li a:hover {
@@ -231,6 +240,7 @@ img {
   width: 100%;
   position: absolute;
   z-index: 10;
+  background-color: rgba(55, 58, 54, 0.15);
 }
 
 .nav.scrolled {
@@ -328,15 +338,25 @@ img {
   text-transform: uppercase;
   font-family: "CWM_Bold", sans-serif;
   font-family: "CWM_Bold", sans-serif;
-  color: #EF4047;
+  color: #f9f9f9;
+}
+
+.nav .navContent .navItems .singleItem .h4.active {
+  color: #777777;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #EF4047;
+          text-decoration-color: #EF4047;
+  pointer-events: none;
+  cursor: default;
 }
 
 .nav .navContent .navItems .singleItem .h4:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   text-decoration: line-through;
-  -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+  -webkit-text-decoration-color: #f9f9f9;
+          text-decoration-color: #f9f9f9;
+  color: #EF4047;
 }
 
 @media (max-width: 550px) {
@@ -2540,10 +2560,11 @@ hr.wp-block-separator {
 }
 
 #contact #contactContent #gform_submit_button_1:after {
-  content: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg");
+  content: "";
   width: 2vw;
   height: 2vw;
   padding: 10px;
+  background-image: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg");
 }
 
 @media (max-width: 650px) {

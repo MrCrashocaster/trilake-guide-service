@@ -147,10 +147,11 @@
         }
 
         #gform_submit_button_1:after {
-            content: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
+            content: "";
             width: 2vw;
             height: 2vw;
             padding: 10px;
+            background-image: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
 
             @include large-mobile {
                 height: 4vw;
