@@ -16,94 +16,121 @@ get_header(); ?>
             <?php endwhile; ?>
     <?php endif; ?>
 
-    <div id="packagesHero" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/JoJo-100-e1646539030660.jpg') center top no-repeat; background-size: cover; height: 100vh; width: 100%;">
+    <?php if( have_rows('hero') ): ?>
+        <?php while( have_rows('hero') ): the_row(); ?>
 
-        <div class="heroOverlay"></div>
+            <div id="packagesHero" style="background: url('<?php if(get_sub_field('background_image')['url']) { the_sub_field('background_image')['url']; } ?>') center top no-repeat; background-size: cover; height: 100vh; width: 100%;">
 
-        <div id="nav" class="nav">
-            <div class="wrapper1200">
-                <div class="navContent">
-                    <div class="navItems">
-                        <div class="singleItem">
-                            <a href="<?php echo get_home_url(); ?>" class="h4">Home</a>
-                        </div>
-                        <div class="singleItem">
-                            <a href="/packages/" class="h4">Packages</a>
-                        </div>
-                        <div class="singleItem">
-                            <a href="/about/" class="h4">About</a>
-                        </div>
-                        <div class="singleItem">
-                            <a href="/contact/" class="h4">Contact</a>
+                <div class="heroOverlay"></div>
+
+                <div id="nav" class="nav">
+                    <div class="wrapper1200">
+                        <div class="navContent">
+                            <div class="navItems">
+                                <div class="singleItem">
+                                    <a href="<?php echo get_home_url(); ?>" class="h4">Home</a>
+                                </div>
+                                <div class="singleItem">
+                                    <a href="/packages/" class="h4">Packages</a>
+                                </div>
+                                <div class="singleItem">
+                                    <a href="/about/" class="h4">About</a>
+                                </div>
+                                <div class="singleItem">
+                                    <a href="/contact/" class="h4">Contact</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div id="mobileMenu">
-            <div id="overlay-button"><span></span></div>
-            <div id="overlay">
-                <ul>
-                <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
-                <li><a class="cwm" href="/packages/">Packages</a></li>
-                <li><a class="cwm" href="/about/">About</a></li>
-                <li><a class="cwm" href="/contact/">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+                <div id="mobileMenu">
+                    <div id="overlay-button"><span></span></div>
+                    <div id="overlay">
+                        <ul>
+                        <li><a class="cwm" href="<?php echo get_home_url(); ?>">Home</a></li>
+                        <li><a class="cwm" href="/packages/">Packages</a></li>
+                        <li><a class="cwm" href="/about/">About</a></li>
+                        <li><a class="cwm" href="/contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div class="logo"><img src="<?php the_sub_field('logo') ?>" /></div>
+                <div class="heroContent">
 
-        <div class="heroContent">
+                    <div class="wrapper1200">
 
-            <div class="wrapper1200">
+                        <?php if( have_rows('headline') ): ?>
 
-                <div class="heroHeadline animate__animated animate__fadeIn">
+                            <?php while( have_rows('headline') ): the_row(); ?>
 
-                    <div class="h2"><span class="underlined-word">All-Pro<div class="underline"></span></div></div>
-                    <div class="h2"> Angler Team</div>
+                                <div class="heroHeadline animate__animated animate__fadeIn">
+
+                                    <div class="h2"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?><div class="underline"></span></div></div>
+                                    <div class="h2"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+
+                                </div>
+
+                            <?php endwhile; ?>
+
+                        <?php endif; ?>
+
+                    </div>
+
+                    <div id="scrollButton" class="scrollButtonContainer">
+
+                    <img class="animate__animated animate__pulse animate__infinite infinite" src="https://trilakeguideservice.com/wp-content/uploads/2022/05/scroll.png"/>
+
+                </div>
 
                 </div>
 
             </div>
-
-            <div id="scrollButton" class="scrollButtonContainer">
-
-            <img class="animate__animated animate__pulse animate__infinite infinite" src="https://trilakeguideservice.com/wp-content/uploads/2022/05/scroll.png"/>
-
-        </div>
-
-        </div>
-
-    </div>
+        <?php endwhile; ?>
+    <?php endif; ?>
 
     <div id="aboutSection">
-        <div class="aboutContainer">
-            <div class="imagesContainer">
-                <div class="slide">
-                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="https://trilakeguideservice.com/wp-content/uploads/2022/04/JoJoBaker-Name-min-min.png" />
-                </div>
-                <div class="slide">
-                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="https://trilakeguideservice.com/wp-content/uploads/2022/04/Dalton-min.png" />
-                </div>
-            </div>
-            <div class="aboutContent">
-                <div class="h2 fade-left"><span class="underlined-word">About <div class="underline"></span></div></div>
-                <div class="h2 fade-left"> Us</div>
-                <p class="fade-left">Tri-Lake Guide Service has been a long time dream of mine. I made the leap in 2021 and started guiding crappie fishing trips full time. I have been fishing the lakes of Mississippi since I was old enough to hold a pole. They say do what you love and love what you do, fishing is my passion and I am blessed to be able to share the sport with others. In the future, I want to be able to offer trips not only in MS but all over the southeast. I want a trip with Tri-Lake Guide Service to be something that people want to do every year.  Our team of all pro crappie fisherman have fished the major crappie trails of MS and other crappie trails throughout the US. The team's knowledge and skill sets will provide you with a trip you will never forget!</p>
-                <div class="button fade-left">
-                    <div class="btn">
-                        <div class="btnContent btnBorderDark">
-                            <a href="/contact">
-                                <p class="white">Get in Touch</p>
-                                <div class="btnImg"></div>
-                            </a>
-                        </div>
+        <?php if( have_rows('about_us') ): ?>
+            <?php while( have_rows('about_us') ): the_row(); ?>
+                <div class="aboutContainer">
+                    <div class="imagesContainer">
+                        <?php if( have_rows('team_members') ): ?>
+                            <?php while( have_rows('team_members') ): the_row(); ?>
+                                <div class="slide">
+                                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="<?php if(get_sub_field('team_member_1')['url']) { the_sub_field('team_member_1')['url']; } ?>" />
+                                </div>
+                                <div class="slide">
+                                    <img data-parallax='{"y": -300, "distance": 4000, "smoothness": 20}' src="<?php if(get_sub_field('team_member_2')['url']) { the_sub_field('team_member_2')['url']; } ?>" />
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                    </div>
+                    <div class="aboutContent">
+                        <?php if( have_rows('story') ): ?>
+                            <?php while( have_rows('story') ): the_row(); ?>
+                                <?php if( have_rows('headline') ): ?>
+                                    <?php while( have_rows('headline') ): the_row(); ?>
+                                        <div class="h2 fade-left"><span class="underlined-word"><?php if(get_sub_field('underlined_headline')) { the_sub_field('underlined_headline'); } ?> <div class="underline"></span></div></div>
+                                        <div class="h2 fade-left"> <?php if(get_sub_field('headline')) { the_sub_field('headline'); } ?></div>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+                                <p class="fade-left"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
+                                <div class="button fade-left">
+                                    <div class="btn">
+                                        <div class="btnContent btnBorderDark">
+                                            <a href="/contact">
+                                                <p class="white">Get in Touch</p>
+                                                <div class="btnImg"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
                     </div>
                 </div>
-            </div>
-        </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
 
     <div id="aboutCTA" style="background: url('https://trilakeguideservice.com/wp-content/uploads/2022/04/FishCTA-100.jpg') center top no-repeat; background-size: cover; width: 100%;">
@@ -144,6 +171,23 @@ get_header(); ?>
         </div>
         <div class="sponsorHeadline">
             <div class="h2 dark subtext">Sponsors</div>
+        </div>
+    </div>
+
+    <div id="customerPhotos">
+        <div class="wrapper1200">
+            <div class="customerPhotosContainer">
+                <?php if( have_rows('customer_photos') ): ?>
+                    <?php while( have_rows('customer_photos') ): the_row(); ?>
+                        <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_1')['url']) { the_sub_field('customer_photo_1')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                        </div>
+                        <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_2')['url']) { the_sub_field('customer_photo_2')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                        </div>
+                        <div class="singleCustomer" style="background: url('<?php if(get_sub_field('customer_photo_3')['url']) { the_sub_field('customer_photo_3')['url']; } ?>') center top no-repeat; background-size: cover; height: 500px; width: 100%;">
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            </div>
         </div>
     </div>
 
