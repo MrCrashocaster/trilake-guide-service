@@ -2505,7 +2505,7 @@ hr.wp-block-separator {
   padding: 5em 0;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   #contact #contactContent .contactContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2519,7 +2519,7 @@ hr.wp-block-separator {
   width: 50%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   #contact #contactContent .contactContainer .contactForm {
     width: 100%;
   }
@@ -2536,7 +2536,7 @@ hr.wp-block-separator {
   width: 35%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   #contact #contactContent .contactContainer .contactInfoContainer {
     width: 100%;
   }
