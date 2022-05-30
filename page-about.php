@@ -157,7 +157,7 @@ get_header(); ?>
                 <a target="_blank" href="https://www.3poundfishing.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/3-pound.png" /></a>
             </div>
             <div class="singleSponsor">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100045061938308"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Bandito.png" /></a>
+                <a target="_blank" href="https://www.bandidocrappiejigs.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Bandito.png" /></a>
             </div>
             <div class="singleSponsor">
                 <a target="_blank" href="https://lonestarcrappiejigs.com/"><img src="https://trilakeguideservice.com/wp-content/uploads/2022/05/Lone-Star2.png" /></a>
