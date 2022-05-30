@@ -99,11 +99,11 @@ get_header(); ?>
                                     <?php endwhile; ?>
                                 <?php endif; ?>
                                 <p class="fade-right"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
-                                <div class="button">
+                                <div class="button fade-right">
                                     <div class="btn">
                                         <div class="btnContent btnBorderDark">
-                                            <a href="#packageSection">
-                                                <p class="white">View Packages</p>
+                                            <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                <p class="white"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                 <div class="btnImg"></div>
                                             </a>
                                         </div>
@@ -166,8 +166,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Find your Fish</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -187,8 +187,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Find your Fish</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -208,8 +208,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Find your Fish</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -229,8 +229,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Find your Fish</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -265,8 +265,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Find your Fish</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -328,8 +328,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Get in Touch</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -350,8 +350,8 @@ get_header(); ?>
                                             <div class="button">
                                                 <div class="btn">
                                                     <div class="btnContent btnBorderDark">
-                                                        <a href="/contact">
-                                                            <p class="dark">Get in Touch</p>
+                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                             <div class="btnImg"></div>
                                                         </a>
                                                     </div>
@@ -386,8 +386,8 @@ get_header(); ?>
                             <div class="button">
                                 <div class="btn">
                                     <div class="btnContent btnBorderDark">
-                                        <a href="/contact">
-                                            <p class="dark">Get in Touch</p>
+                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                             <div class="btnImg"></div>
                                         </a>
                                     </div>

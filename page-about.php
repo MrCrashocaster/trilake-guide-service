@@ -118,8 +118,8 @@ get_header(); ?>
                                 <div class="button fade-left">
                                     <div class="btn">
                                         <div class="btnContent btnBorderDark">
-                                            <a href="/contact">
-                                                <p class="white">Get in Touch</p>
+                                            <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                <p class="white"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                 <div class="btnImg"></div>
                                             </a>
                                         </div>
@@ -209,8 +209,8 @@ get_header(); ?>
                                     <div class="button fade-right">
                                         <div class="btn">
                                             <div class="btnContent btnBorderDark">
-                                                <a href="/contact">
-                                                    <p class="white">Get in Touch</p>
+                                                <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
+                                                    <p class="white"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
                                                     <div class="btnImg"></div>
                                                 </a>
                                             </div>
