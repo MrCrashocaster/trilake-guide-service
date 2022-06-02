@@ -9,6 +9,15 @@
 
 $(document).ready(function() {
 
+    // FORM
+    gform.addFilter( 'gform_datepicker_options_pre_init', function( optionsObj, formId, fieldId ) {
+        if ( formId == 1 && fieldId == 13 ) {
+        optionsObj.minDate = 0;
+        optionsObj.maxDate = '+6 M';
+        }
+        return optionsObj;
+        } );
+
     jQuery(function($) {
         var path = window.location.href; 
         // because the 'href' property of the DOM element is the absolute path

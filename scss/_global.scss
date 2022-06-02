@@ -791,6 +791,20 @@ input[type="radio"] {
 
 }
 
+// FORM 
+
+thead {
+	font-family: $cwm;
+}
+
+.gform-theme-datepicker:not(.gform-legacy-datepicker) .ui-datepicker-calendar .ui-state-default {
+	font-family: $chakra;
+}
+
+.gform-theme-datepicker:not(.gform-legacy-datepicker) .ui-datepicker-calendar .ui-state-disabled {
+    mix-blend-mode: color;
+}
+
 // FOOTER
 footer {
 	.footer {

@@ -956,6 +956,18 @@ input[type="radio"] {
   margin-left: 8px;
 }
 
+thead {
+  font-family: "CWM_Bold", sans-serif;
+}
+
+.gform-theme-datepicker:not(.gform-legacy-datepicker) .ui-datepicker-calendar .ui-state-default {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.gform-theme-datepicker:not(.gform-legacy-datepicker) .ui-datepicker-calendar .ui-state-disabled {
+  mix-blend-mode: color;
+}
+
 footer .footer {
   background-color: #373A36;
   width: 100%;
