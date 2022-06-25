@@ -321,28 +321,32 @@ get_header(); ?>
                 <div class="packages">
                     <?php if( have_rows('services') ): ?>
                         <?php while( have_rows('services') ): the_row(); ?>
-                            <div class="singlePackage fade-right">
-                                <div class="singlePackageContent">
-                                    <?php if( have_rows('package_1') ): ?>
-                                        <?php while( have_rows('package_1') ): the_row(); ?>
-                                            <div class="h2"><span class="underlined-word"><?php if(get_sub_field('headline')) { the_sub_field('headline'); ?><div class="underline"></span></div><?php } ?></div>
-                                            <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
-                                            <div class="h2 dark subtext"><?php if(get_sub_field('price')) { the_sub_field('price'); } ?></div>
-                                            <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
-                                            <div class="button">
-                                                <div class="btn">
-                                                    <div class="btnContent btnBorderDark">
-                                                        <a href="<?php if(get_sub_field('button_link')) { the_sub_field('button_link'); } ?>">
-                                                            <p class="dark"><?php if(get_sub_field('button_text')) { the_sub_field('button_text'); } ?></p>
-                                                            <div class="btnImg"></div>
-                                                        </a>
+                            <?php if(get_sub_field('headline')) { ?>
+                                <div class="singlePackage fade-right">
+                                    <div class="singlePackageContent">
+                                        <?php if( have_rows('package_1') ): ?>
+                                            <?php while( have_rows('package_1') ): the_row(); ?>
+                                                <div class="h2"><span class="underlined-word"><?php the_sub_field('headline'); ?><div class="underline"></span></div></div>
+                                                <div class="h2 dark subtext"> <?php if(get_sub_field('subheadline')) { the_sub_field('subheadline'); } ?></div>
+                                                <div class="h2 dark subtext"><?php if(get_sub_field('price')) { the_sub_field('price'); } ?></div>
+                                                <p class="dark"><?php if(get_sub_field('body_copy')) { the_sub_field('body_copy'); } ?></p>
+                                                <?php if(get_sub_field('button_link')) { ?>
+                                                    <div class="button">
+                                                        <div class="btn">
+                                                            <div class="btnContent btnBorderDark">
+                                                                <a href="<?php the_sub_field('button_link'); ?>">
+                                                                    <p class="dark"><?php the_sub_field('button_text'); ?></p>
+                                                                    <div class="btnImg"></div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        <?php endwhile; ?>
-                                    <?php endif; ?>
+                                                <?php } ?>
+                                            <?php endwhile; ?>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
-                            </div>
+                            <?php } ?>
                             <div class="singlePackage fade-left">
                                 <div class="singlePackageContent">
                                     <?php if( have_rows('package_2') ): ?>
