@@ -136,6 +136,8 @@
 
                 p:hover {
                     filter: none;
+                    text-decoration: line-through;
+                    text-decoration-color: $dark;
                 }
 
                 .btnImg {

@@ -157,6 +157,8 @@
             filter: blur(1px);
             border-bottom: 3px solid $red;
             border-top: 3px solid $red;
+            text-decoration: line-through;
+            text-decoration-color: $white;
         }
 
         #gform_submit_button_1:after {

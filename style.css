@@ -907,6 +907,9 @@ input[type="radio"] {
 .button .btn .btnContent a p:hover {
   -webkit-filter: none;
           filter: none;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff;
 }
 
 .button .btn .btnContent a .btnImg {
@@ -1179,6 +1182,9 @@ header {
 .heroContent .heroLinks a .heroBtn p:hover {
   -webkit-filter: none;
           filter: none;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #373A36;
+          text-decoration-color: #373A36;
 }
 
 .heroContent .heroLinks a .heroBtn .btnImg {
@@ -1943,6 +1949,18 @@ hr.wp-block-separator {
   }
 }
 
+#unparalledService .unparalledServiceContent .unparalledCopy a {
+  color: #EF4047;
+  font-weight: 700;
+}
+
+#unparalledService .unparalledServiceContent .unparalledCopy a:hover {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  text-transform: uppercase;
+}
+
 #unparalledService .unparalledServiceContent .unparalledCopy .h2 {
   font-family: "CWM_Bold", sans-serif;
   position: relative;
@@ -2325,8 +2343,93 @@ hr.wp-block-separator {
   left: 0;
 }
 
-#aboutCTA .cardContent p {
-  color: white;
+#aboutCTA .cardContent .button {
+  position: relative;
+}
+
+#aboutCTA .cardContent .button .btn {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutCTA .cardContent .button .btn .btnBorderWhite {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+#aboutCTA .cardContent .button .btn .btnBorderDark {
+  border-top: 3px solid #373A36;
+  border-bottom: 3px solid #373A36;
+}
+
+#aboutCTA .cardContent .button .btn .btnContent {
+  margin: 30px 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutCTA .cardContent .button .btn .btnContent a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutCTA .cardContent .button .btn .btnContent a p {
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Chakra Petch", sans-serif;
+  display: inline-block;
+}
+
+@media (max-width: 650px) {
+  #aboutCTA .cardContent .button .btn .btnContent a p {
+    font-size: 4vw;
+  }
+}
+
+#aboutCTA .cardContent .button .btn .btnContent a p:hover {
+  -webkit-filter: none;
+          filter: none;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #373A36;
+          text-decoration-color: #373A36;
+}
+
+#aboutCTA .cardContent .button .btn .btnContent a .btnImg {
+  content: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg");
+  width: 2vw;
+  height: 2vw;
+  padding: 10px;
+}
+
+@media (max-width: 650px) {
+  #aboutCTA .cardContent .button .btn .btnContent a .btnImg {
+    height: 4vw;
+  }
+}
+
+#aboutCTA .cardContent .button .btn .btnContent:hover {
+  border-color: #EF4047;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  color: #fff;
+  cursor: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/trilakeCursor.svg"), auto;
 }
 
 #ctaContact {
@@ -2627,6 +2730,9 @@ hr.wp-block-separator {
           filter: blur(1px);
   border-bottom: 3px solid #EF4047;
   border-top: 3px solid #EF4047;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff;
 }
 
 #contact #contactContent #gform_submit_button_1:after {

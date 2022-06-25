@@ -82,6 +82,17 @@
                 margin-bottom: 5%;
             }
 
+            a {
+                color: $red;
+                font-weight: 700;
+            }
+
+            a:hover {
+                text-decoration: line-through;
+                text-decoration-color: white;
+                text-transform: uppercase;
+            }
+
             .h2 {
                 font-family: $cwm;
                 position: relative;
@@ -403,8 +414,74 @@
             }
         }
 
-        p {
-            color: white;
+        .button {
+            position: relative;
+        
+            .btn {
+                position: relative;
+                align-items: center;
+                display: flex;
+        
+                .btnBorderWhite {
+                    border-top: 3px solid $white;
+                    border-bottom: 3px solid $white;
+                }
+        
+                .btnBorderDark {
+                    border-top: 3px solid $dark;
+                    border-bottom: 3px solid $dark;
+                }
+        
+                .btnContent {
+                    margin: 30px 0;
+                    position: relative;
+                    align-items: center;
+                    display: flex;
+        
+                    a {
+                        align-items: center;
+                        display: flex;
+        
+                        p {
+                            padding: 10px;
+                            color: $white;
+                            text-transform: uppercase;
+                            font-size: 2vw;
+                            font-weight: 900;
+                            font-family: $chakra;
+                            display: inline-block;
+                
+                            @include large-mobile {
+                                font-size: 4vw;
+                            }
+                        }
+                
+                        p:hover {
+                            filter: none;
+                            text-decoration: line-through;
+                            text-decoration-color: $dark;
+                        }
+                
+                        .btnImg {
+                            content: url('https://trilakeguideservice.com/wp-content/uploads/2022/03/pattern.svg');
+                            width: 2vw;
+                            height: 2vw;
+                            padding: 10px;
+                
+                            @include large-mobile {
+                                height: 4vw;
+                            }
+                        }
+                    }
+                }
+        
+                .btnContent:hover {
+                    border-color: $red;
+                    filter: blur(1px);
+                    color: $white;
+                    cursor: url("https://trilakeguideservice.com/wp-content/uploads/2022/03/trilakeCursor.svg"), auto;
+                }
+            }
         }
     }
 }
